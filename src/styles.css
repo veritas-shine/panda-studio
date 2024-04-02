@@ -14,11 +14,15 @@
   -webkit-text-size-adjust: 100%;
 }
 
+#app {
+  height: 100vh;
+}
+
 .container {
+  height: 100vh;
   margin: 0;
-  padding-top: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
 }
