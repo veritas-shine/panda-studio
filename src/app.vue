@@ -3,7 +3,7 @@ import { reactive, watch, ref, CSSProperties } from 'vue'
 import { theme, ConfigProvider } from 'ant-design-vue'
 import SideBar from './components/sidebar.vue'
 
-const { token } = theme.useToken()
+// const { token } = theme.useToken()
 const state = reactive({
   collapsed: false,
   selectedKeys: ['1'],

@@ -75,7 +75,7 @@ const handleClick = (item: ItemType) => {
 <style lang="scss" scoped>
 .sidebar {
   width: 50px;
-  padding: 8px 0 8px 0;
+  padding: 0px 0 8px 0;
   .item {
     display: flex;
     height: 64px;

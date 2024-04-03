@@ -19,10 +19,12 @@
           <Tag color="cyan">GPT-NeoX</Tag> gguf <InfoCircleOutlined class="icon" /> model file
         </div>
       </Flex>
-      <Row :gutter="24" class="recommendation">
-        <WelcomeCard />
-        <Card v-for="(item, index) in modelList" :key="index" :info="item" />
-      </Row>
+      <div class="recommendation-container">
+        <Row :gutter="[16, 24]" class="recommendation">
+          <WelcomeCard />
+          <Card v-for="(item, index) in modelList" :key="index" :info="item" />
+        </Row>
+      </div>
     </div>
   </Flex>
 </template>
@@ -78,6 +80,11 @@ const onSearch = () => {
   .icon {
     margin-left: 4px;
     margin-right: 4px;
+  }
+
+  .recommendation-container {
+    height: calc(100% - 200px);
+    overflow-y: auto;
   }
 
   .recommendation {

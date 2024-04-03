@@ -33,7 +33,7 @@
 import { ref } from 'vue'
 import { Col, Card, Space, Tag, Button, TypographyParagraph } from 'ant-design-vue'
 import { CardInfo } from './config'
-const props = defineProps<{ info: CardInfo }>()
+defineProps<{ info: CardInfo }>()
 const ellipsis = ref(true)
 </script>
 <style scoped lang="scss">
