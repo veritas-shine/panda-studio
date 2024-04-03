@@ -115,21 +115,21 @@ jobs:
 
       - name: Rename artifacts
         run: |
-          mv "artifacts/aarch64/dmg/PandaStudio_${{ env.version }}_aarch64.dmg" "artifacts/PandaStudio_${{ env.version }}_macos_aarch64.dmg"
-          mv "artifacts/aarch64/macos/PandaStudio.app.tar.gz" "artifacts/PandaStudio_${{ env.version }}_macos_aarch64.app.tar.gz"
-          mv "artifacts/aarch64/macos/PandaStudio.app.tar.gz.sig" "artifacts/PandaStudio_${{ env.version }}_macos_aarch64.app.tar.gz.sig"
+          mv "artifacts/aarch64/dmg/Panda Studio_${{ env.version }}_aarch64.dmg" "artifacts/Panda Studio_${{ env.version }}_macos_aarch64.dmg"
+          mv "artifacts/aarch64/macos/Panda Studio.app.tar.gz" "artifacts/Panda Studio_${{ env.version }}_macos_aarch64.app.tar.gz"
+          mv "artifacts/aarch64/macos/Panda Studio.app.tar.gz.sig" "artifacts/Panda Studio_${{ env.version }}_macos_aarch64.app.tar.gz.sig"
 
-          mv "artifacts/x86_64/dmg/PandaStudio_${{ env.version }}_x64.dmg" "artifacts/PandaStudio_${{ env.version }}_macos_x86_64.dmg"
-          mv "artifacts/x86_64/macos/PandaStudio.app.tar.gz" "artifacts/PandaStudio_${{ env.version }}_macos_x86_64.app.tar.gz"
-          mv "artifacts/x86_64/macos/PandaStudio.app.tar.gz.sig" "artifacts/PandaStudio_${{ env.version }}_macos_x86_64.app.tar.gz.sig"
+          mv "artifacts/x86_64/dmg/Panda Studio_${{ env.version }}_x64.dmg" "artifacts/Panda Studio_${{ env.version }}_macos_x86_64.dmg"
+          mv "artifacts/x86_64/macos/Panda Studio.app.tar.gz" "artifacts/Panda Studio_${{ env.version }}_macos_x86_64.app.tar.gz"
+          mv "artifacts/x86_64/macos/Panda Studio.app.tar.gz.sig" "artifacts/Panda Studio_${{ env.version }}_macos_x86_64.app.tar.gz.sig"
 
-          mv "artifacts/x86_64/deb/chat-gpt_${{ env.version }}_amd64.deb" "artifacts/x86_64/deb/PandaStudio_${{ env.version }}_linux_x86_64.deb"
-          mv "artifacts/x86_64/appimage/chat-gpt_${{ env.version }}_amd64.AppImage.tar.gz" "artifacts/PandaStudio_${{ env.version }}_linux_x86_64.AppImage.tar.gz"
-          mv "artifacts/x86_64/appimage/chat-gpt_${{ env.version }}_amd64.AppImage.tar.gz.sig" "artifacts/PandaStudio_${{ env.version }}_linux_x86_64.AppImage.tar.gz.sig"
+          mv "artifacts/x86_64/deb/panda-studio_${{ env.version }}_amd64.deb" "artifacts/x86_64/deb/Panda Studio_${{ env.version }}_linux_x86_64.deb"
+          mv "artifacts/x86_64/appimage/panda-studio_${{ env.version }}_amd64.AppImage.tar.gz" "artifacts/Panda Studio_${{ env.version }}_linux_x86_64.AppImage.tar.gz"
+          mv "artifacts/x86_64/appimage/panda-studio_${{ env.version }}_amd64.AppImage.tar.gz.sig" "artifacts/Panda Studio_${{ env.version }}_linux_x86_64.AppImage.tar.gz.sig"
 
-          mv "artifacts/x86_64/PandaStudio_${{ env.version }}_x64_en-US.msi" "artifacts/PandaStudio_${{ env.version }}_windows_x86_64.msi"
-          mv "artifacts/x86_64/PandaStudio_${{ env.version }}_x64_en-US.msi.zip" "artifacts/PandaStudio_${{ env.version }}_windows_x86_64.msi.zip"
-          mv "artifacts/x86_64/PandaStudio_${{ env.version }}_x64_en-US.msi.zip.sig" "artifacts/PandaStudio_${{ env.version }}_windows_x86_64.msi.zip.sig"
+          mv "artifacts/x86_64/Panda Studio_${{ env.version }}_x64_en-US.msi" "artifacts/Panda Studio_${{ env.version }}_windows_x86_64.msi"
+          mv "artifacts/x86_64/Panda Studio_${{ env.version }}_x64_en-US.msi.zip" "artifacts/Panda Studio_${{ env.version }}_windows_x86_64.msi.zip"
+          mv "artifacts/x86_64/Panda Studio_${{ env.version }}_x64_en-US.msi.zip.sig" "artifacts/Panda Studio_${{ env.version }}_windows_x86_64.msi.zip.sig"
 
       - name: Create Release
         uses: softprops/action-gh-release@master
