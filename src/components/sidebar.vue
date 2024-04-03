@@ -16,54 +16,56 @@ const items = [
   {
     key: '1',
     icon: HomeOutlined,
-    label: 'Option 1',
+    label: 'Home',
     url: '/'
   },
   {
     key: '2',
     icon: SearchOutlined,
-    label: 'Option 2',
+    label: 'Search',
     url: '/search'
   },
   {
     key: '3',
     icon: MessageOutlined,
-    label: 'Option 3',
+    label: 'Chat',
     url: '/chat'
   },
   {
     key: '4',
     icon: SettingOutlined,
-    label: 'Option 3',
+    label: 'Settings',
     url: '/settings'
   }
 ]
 
 const containerStyle: CSSProperties = {
-  backgroundColor: token.value.colorPrimaryBg,
+  // backgroundColor: token.value.colorPrimaryBg,
   color: token.value.colorText,
   borderRight: `1px solid ${token.value.colorBorder}`
 }
 
-const itemStyle: CSSProperties = {}
+type ItemType = (typeof items)[0]
 
-const handleClick = (event: any) => {
-  console.warn(event)
-  router.push(event.item.url)
+const itemStyle = (item: ItemType): CSSProperties => ({
+  backgroundColor:
+    router.currentRoute.value.path === item.url ? token.value.colorPrimaryHover : undefined
+})
+
+const handleClick = (item: ItemType) => {
+  router.push(item.url)
 }
 </script>
 
 <template>
   <Flex justify="space-between" vertical align="center" class="sidebar" :style="containerStyle">
     <Flex vertical class="top">
-      <Flex
-        v-for="item in items"
-        :key="item.key"
-        class="item"
-        @click="handleClick"
-        :style="itemStyle"
-      >
-        <component :is="item.icon" />
+      <Flex v-for="item in items" :key="item.key" :style="itemStyle(item)">
+        <div class="item" @click="() => handleClick(item)">
+          <div>
+            <component :is="item.icon" />
+          </div>
+        </div>
       </Flex>
     </Flex>
     <Space class="bottom">0.0.1</Space>
@@ -73,10 +75,15 @@ const handleClick = (event: any) => {
 <style lang="scss" scoped>
 .sidebar {
   width: 50px;
+  padding: 8px 0 8px 0;
   .item {
+    display: flex;
     height: 64px;
+    width: 48px;
     font-size: 20px;
     cursor: pointer;
+    align-items: center;
+    justify-content: center;
   }
 }
 </style>

@@ -5,7 +5,12 @@
       <Flex class="search-container" :style="{ backgroundColor: token.colorBgElevated }">
         <div>Logo</div>
         <div class="search-input">
-          <Input placeholder="Search for models" />
+          <InputSearch
+            placeholder="Search for models"
+            enter-button
+            allow-clear
+            @search="onSearch"
+          />
         </div>
         <div class="tip">
           Supports any <Tag class="first-tag" color="pink">Llama</Tag><Tag color="blue">Mistral</Tag
@@ -24,14 +29,19 @@
 <script setup type="ts">
 import { ref } from 'vue'
 import Header from './header.vue'
-import { Input, Tag, Row, Flex, theme } from 'ant-design-vue'
+import { InputSearch, Tag, Row, Flex, theme } from 'ant-design-vue'
 import { InfoCircleOutlined } from '@ant-design/icons-vue'
 import WelcomeCard from './welcome.vue'
 import Card from './card.vue'
 import { kRecommendationList } from './config'
+import { useRouter } from 'vue-router'
 
 const modelList = ref(kRecommendationList)
 const { token } = theme.useToken()
+const router = useRouter()
+const onSearch = () => {
+  router.push("/search")
+}
 </script>
 <style scoped lang="scss">
 .home {
