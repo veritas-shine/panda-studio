@@ -7,6 +7,7 @@ import {
   MessageOutlined,
   SettingOutlined
 } from '@ant-design/icons-vue'
+import { theme, ConfigProvider } from 'ant-design-vue'
 
 const router = useRouter()
 const state = reactive({
@@ -60,21 +61,23 @@ watch(
 </script>
 
 <template>
-  <div class="container">
-    <div class="sidebar">
-      <a-menu
-        v-model:openKeys="state.openKeys"
-        v-model:selectedKeys="state.selectedKeys"
-        mode="inline"
-        theme="dark"
-        @click="handleClick"
-        inline-collapsed
-        :items="items"
-      >
-      </a-menu>
+  <ConfigProvider :theme="{ algorithm: theme.darkAlgorithm }">
+    <div class="container">
+      <div class="sidebar">
+        <a-menu
+          v-model:openKeys="state.openKeys"
+          v-model:selectedKeys="state.selectedKeys"
+          mode="inline"
+          theme="dark"
+          @click="handleClick"
+          inline-collapsed
+          :items="items"
+        >
+        </a-menu>
+      </div>
+      <router-view></router-view>
     </div>
-    <router-view></router-view>
-  </div>
+  </ConfigProvider>
 </template>
 
 <style scoped>

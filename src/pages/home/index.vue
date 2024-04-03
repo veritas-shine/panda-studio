@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
+  <Flex class="home">
     <Header />
     <div class="content-container">
-      <div class="search-container">
+      <Flex class="search-container">
         <div>Logo</div>
         <div class="search-input">
           <Input placeholder="Search for models" />
@@ -13,24 +13,24 @@
           ><Tag color="green">StarCoder</Tag><Tag color="red">StableLM</Tag>
           <Tag color="cyan">GPT-NeoX</Tag> gguf <InfoCircleOutlined class="icon" /> model file
         </div>
-      </div>
-      <Row gutter="24">
+      </Flex>
+      <Row gutter="24" class="recommendation">
         <WelcomeCard />
         <Card v-for="(item, index) in modelList" :key="index" :info="item" />
       </Row>
     </div>
-  </div>
+  </Flex>
 </template>
 <script setup type="ts">
 import { ref } from 'vue'
 import Header from './header.vue'
-import { Input, Tag, Row } from 'ant-design-vue'
+import { Input, Tag, Row, Flex } from 'ant-design-vue'
 import { InfoCircleOutlined } from '@ant-design/icons-vue'
 import WelcomeCard from './welcome.vue'
 import Card from './card.vue'
-// import { kASCIILog } from './config'
+import { kRecommendationList } from './config'
 
-const modelList = ref([])
+const modelList = ref(kRecommendationList)
 </script>
 <style scoped lang="scss">
 .home {
@@ -45,7 +45,6 @@ const modelList = ref([])
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #ccc;
     padding-bottom: 40px;
   }
 
@@ -68,6 +67,10 @@ const modelList = ref([])
   .icon {
     margin-left: 4px;
     margin-right: 4px;
+  }
+
+  .recommendation {
+    padding: 40px;
   }
 }
 </style>
