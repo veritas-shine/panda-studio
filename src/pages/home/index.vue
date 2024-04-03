@@ -14,7 +14,7 @@
           <Tag color="cyan">GPT-NeoX</Tag> gguf <InfoCircleOutlined class="icon" /> model file
         </div>
       </Flex>
-      <Row gutter="24" class="recommendation">
+      <Row :gutter="24" class="recommendation">
         <WelcomeCard />
         <Card v-for="(item, index) in modelList" :key="index" :info="item" />
       </Row>
