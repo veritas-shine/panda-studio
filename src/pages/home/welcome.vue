@@ -33,7 +33,7 @@ import { InfoCircleOutlined } from '@ant-design/icons-vue'
 <style scoped lang="scss">
 .card {
   .content {
-    padding: 8px;
+    padding: 0;
 
     .tip {
       font-size: 12px;

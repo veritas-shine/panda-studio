@@ -1,8 +1,9 @@
 <script setup lang="ts">
-import { reactive, watch } from 'vue'
+import { reactive, watch, ref, CSSProperties } from 'vue'
 import { theme, ConfigProvider } from 'ant-design-vue'
 import SideBar from './components/sidebar.vue'
 
+const { token } = theme.useToken()
 const state = reactive({
   collapsed: false,
   selectedKeys: ['1'],
@@ -16,11 +17,16 @@ watch(
     state.preOpenKeys = oldVal
   }
 )
+
+const style = ref<CSSProperties>({
+  // backgroundColor: token.value.colorBgLayout,
+  // color: token.value.colorText
+})
 </script>
 
 <template>
   <ConfigProvider :theme="{ algorithm: theme.darkAlgorithm }">
-    <div class="container">
+    <div class="container" :style="style">
       <SideBar />
       <router-view></router-view>
     </div>

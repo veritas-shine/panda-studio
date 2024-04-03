@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Flex, theme } from 'ant-design-vue'
+import { Flex, Space, theme } from 'ant-design-vue'
 import { useRouter } from 'vue-router'
 import {
   HomeOutlined,
@@ -41,7 +41,8 @@ const items = [
 
 const containerStyle: CSSProperties = {
   backgroundColor: token.value.colorPrimaryBg,
-  color: token.value.colorPrimaryText
+  color: token.value.colorText,
+  borderRight: `1px solid ${token.value.colorBorder}`
 }
 
 const itemStyle: CSSProperties = {}
@@ -54,7 +55,7 @@ const handleClick = (event: any) => {
 
 <template>
   <Flex justify="space-between" vertical align="center" class="sidebar" :style="containerStyle">
-    <div class="top">
+    <Flex vertical class="top">
       <Flex
         v-for="item in items"
         :key="item.key"
@@ -64,8 +65,8 @@ const handleClick = (event: any) => {
       >
         <component :is="item.icon" />
       </Flex>
-    </div>
-    <div class="bottom">0.0.1</div>
+    </Flex>
+    <Space class="bottom">0.0.1</Space>
   </Flex>
 </template>
 

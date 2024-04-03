@@ -2,7 +2,7 @@
   <Flex class="home">
     <Header />
     <div class="content-container">
-      <Flex class="search-container">
+      <Flex class="search-container" :style="{ backgroundColor: token.colorBgElevated }">
         <div>Logo</div>
         <div class="search-input">
           <Input placeholder="Search for models" />
@@ -24,13 +24,14 @@
 <script setup type="ts">
 import { ref } from 'vue'
 import Header from './header.vue'
-import { Input, Tag, Row, Flex } from 'ant-design-vue'
+import { Input, Tag, Row, Flex, theme } from 'ant-design-vue'
 import { InfoCircleOutlined } from '@ant-design/icons-vue'
 import WelcomeCard from './welcome.vue'
 import Card from './card.vue'
 import { kRecommendationList } from './config'
 
 const modelList = ref(kRecommendationList)
+const { token } = theme.useToken()
 </script>
 <style scoped lang="scss">
 .home {

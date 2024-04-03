@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <Button @click="checkForUpdates">Check for updates...</Button>
+    <Button size="small" @click="checkForUpdates">Check for updates...</Button>
     <div>
       <Button class="link-button" size="small" type="link" href="https://pandacat.ai"
         >PandaCat AI</Button
@@ -15,6 +15,7 @@
       >
     </div>
   </div>
+  <Divider :style="{ margin: '0' }" />
 </template>
 <script setup type="ts">
 import { Button, Divider } from 'ant-design-vue'
@@ -27,8 +28,8 @@ const checkForUpdates = () => {}
   height: 44px;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #e8e8e8;
   padding: 8px;
+
   .link-button {
     padding-left: 0;
     padding-right: 0;
