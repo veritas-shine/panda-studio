@@ -9,7 +9,9 @@
           <SearchItem v-for="item in resultList" :key="item.id" :info="item" />
         </Flex>
       </Flex>
-      <Flex>Content</Flex>
+      <Flex>
+        <Content />
+      </Flex>
     </Flex>
   </Flex>
 </template>
@@ -20,6 +22,7 @@ import { ISearchService } from '../../interfaces'
 import resultList from './example.json'
 import SearchItem from './search-item.vue'
 import Filter from './filter.vue'
+import Content from './content.vue'
 
 onMounted(async () => {
   // const searchService = ISearchService.resolve()

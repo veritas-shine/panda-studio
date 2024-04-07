@@ -1,5 +1,5 @@
 <template>
-  <div class="search-item-container">
+  <div class="search-item-container" @click="onClick">
     <Flex vertical>
       <span class="title"><FolderOutlined :style="secondaryTextStyle" />{{ info.id }}</span>
       <span :style="secondaryTextStyle">{{ dayText(info.lastModified) }}</span>
@@ -15,7 +15,8 @@ import { CSSProperties } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { Flex, Tag, Space, theme } from 'ant-design-vue'
 import dayjs from 'dayjs'
-import { SearchItemInfo } from './type'
+import { ISearchService } from '../../interfaces'
+import { SearchItemInfo } from '../../interfaces/type'
 import { FolderOutlined, HeartOutlined, DownloadOutlined } from '@ant-design/icons-vue'
 
 const props = defineProps<{ info: SearchItemInfo }>()
@@ -42,6 +43,11 @@ const dayText = (dayString: string) => {
   }
 
   return `${lastModified.format('YYYY-MM-DD')} (${suffix})`
+}
+
+const onClick = () => {
+  const searchService = ISearchService.resolve()
+  searchService.setCurrentModel(props.info)
 }
 </script>
 <style scoped lang="scss">
@@ -72,3 +78,4 @@ const dayText = (dayString: string) => {
   }
 }
 </style>
+../../interfaces/type

@@ -1,5 +1,9 @@
 // search related type
 
+export const kCommand = {
+  getSystemInfo: 'getSystemInfo'
+}
+
 export type SiblingInfo = {
   rfilename: string
 }
