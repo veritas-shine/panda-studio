@@ -2,7 +2,7 @@
   <div class="search-item-container">
     <Flex vertical>
       <span class="title"><FolderOutlined :style="secondaryTextStyle" />{{ info.id }}</span>
-      <span :style="secondaryTextStyle">{{ info.lastModified }}</span>
+      <span :style="secondaryTextStyle">{{ dayText(info.lastModified) }}</span>
     </Flex>
     <div>
       <Tag class="tag"><HeartOutlined :style="secondaryTextStyle" />{{ info.likes }}</Tag>
@@ -11,8 +11,10 @@
   </div>
 </template>
 <script setup lang="ts">
-import { onMounted, CSSProperties } from 'vue'
+import { CSSProperties } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { Flex, Tag, Space, theme } from 'ant-design-vue'
+import dayjs from 'dayjs'
 import { SearchItemInfo } from './type'
 import { FolderOutlined, HeartOutlined, DownloadOutlined } from '@ant-design/icons-vue'
 
@@ -23,9 +25,24 @@ const secondaryTextStyle: CSSProperties = {
   color: token.value.colorTextSecondary
 }
 
-onMounted(() => {
-  console.warn(props.info)
-})
+const { t } = useI18n()
+
+const dayText = (dayString: string) => {
+  const lastModified = dayjs(dayString)
+  const diff = dayjs().diff(lastModified, 'day')
+  let suffix = ''
+  console.warn(diff)
+
+  if (diff < 30 && diff > 0) {
+    suffix = t('common.date.day-ago', { n: diff })
+  } else if (diff >= 30 && diff < 365) {
+    suffix = t('common.date.month-ago', { n: Math.ceil(diff / 30) })
+  } else if (diff >= 365) {
+    suffix = t('common.date.year-ago', { n: Math.ceil(diff / 365) })
+  }
+
+  return `${lastModified.format('YYYY-MM-DD')} (${suffix})`
+}
 </script>
 <style scoped lang="scss">
 .search-item-container {

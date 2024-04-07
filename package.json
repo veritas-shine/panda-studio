@@ -15,9 +15,11 @@
     "@ant-design/icons-vue": "^7.0.1",
     "@tauri-apps/api": "^1",
     "ant-design-vue": "4.x",
+    "dayjs": "^1.11.10",
     "inversify": "^6.0.2",
     "reflect-metadata": "^0.2.2",
     "vue": "^3.3.4",
+    "vue-i18n": "^9.11.0",
     "vue-router": "4"
   },
   "devDependencies": {

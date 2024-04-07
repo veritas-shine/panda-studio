@@ -1,0 +1,7 @@
+{
+  "date": {
+    "day-ago": "{n} day(s) ago",
+    "month-ago": "{n} month(s) ago",
+    "year-ago": "{n} year(s) ago"
+  }
+}
