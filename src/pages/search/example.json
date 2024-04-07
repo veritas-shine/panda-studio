@@ -1,0 +1,5420 @@
+[
+  {
+    "_id": "621ffdc136468d709f17b881",
+    "id": "guoqiang/glm",
+    "author": "guoqiang",
+    "gated": false,
+    "lastModified": "2022-01-21T01:21:46.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "8a0d4b94ea778da2e167fb4da8651dd54dd1ebf2",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2022-03-02T23:29:05.000Z",
+    "modelId": "guoqiang/glm",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "16pic.bin.part_0.cogdata"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "cog-pretrain.model"
+      },
+      {
+        "rfilename": "ds_block_large_chinese.sh"
+      },
+      {
+        "rfilename": "ds_pretrain_nvidia.sh"
+      },
+      {
+        "rfilename": "generate_block.sh"
+      },
+      {
+        "rfilename": "hostfile"
+      },
+      {
+        "rfilename": "mp_rank_00_model_states.pt"
+      },
+      {
+        "rfilename": "vqvae_hard_biggerset_011.pt"
+      }
+    ]
+  },
+  {
+    "_id": "621ffdc136468d709f17bb38",
+    "id": "hkunlp/T5_3b_finetune_kvret_glmp2",
+    "author": "hkunlp",
+    "gated": false,
+    "lastModified": "2021-12-21T16:47:39.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "c3aedfa299bc1943a08254e8aa44117d1a112dfb",
+    "downloads": 4,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "t5",
+      "endpoints_compatible",
+      "text-generation-inference",
+      "region:us"
+    ],
+    "library_name": "transformers",
+    "createdAt": "2022-03-02T23:29:05.000Z",
+    "modelId": "hkunlp/T5_3b_finetune_kvret_glmp2",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "spiece.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  },
+  {
+    "_id": "621ffdc136468d709f17bb3c",
+    "id": "hkunlp/T5_large_finetune_kvret_glmp2",
+    "author": "hkunlp",
+    "gated": false,
+    "lastModified": "2021-12-20T20:30:20.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "2efeb3bb98643dfa26328ba12104842779cd4176",
+    "downloads": 5,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "t5",
+      "endpoints_compatible",
+      "text-generation-inference",
+      "region:us"
+    ],
+    "library_name": "transformers",
+    "createdAt": "2022-03-02T23:29:05.000Z",
+    "modelId": "hkunlp/T5_large_finetune_kvret_glmp2",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "spiece.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  },
+  {
+    "_id": "624e7ced4e17c67304349fed",
+    "id": "shunxing1234/GLM",
+    "author": "shunxing1234",
+    "gated": false,
+    "lastModified": "2022-04-29T07:34:50.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "791fac9f109297959f8cdeefd23ba1725152b2fd",
+    "downloads": 3,
+    "tags": ["transformers", "pytorch", "endpoints_compatible", "region:us"],
+    "library_name": "transformers",
+    "createdAt": "2022-04-07T05:55:57.000Z",
+    "modelId": "shunxing1234/GLM",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "merges.txt"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "vocab.json"
+      },
+      {
+        "rfilename": "vocab.txt"
+      }
+    ]
+  },
+  {
+    "_id": "634653714947a01c6b097b20",
+    "id": "dslack/glm-130b",
+    "author": "dslack",
+    "gated": false,
+    "lastModified": "2022-10-12T05:41:05.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "25efef7d7e293538b6c7a0b73ccf2740738a6d8b",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2022-10-12T05:41:05.000Z",
+    "modelId": "dslack/glm-130b",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "634653e643f4f2d2ed15d992",
+    "id": "ucinlp/glm-130",
+    "author": "ucinlp",
+    "gated": false,
+    "lastModified": "2022-10-12T05:43:02.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "9b82fb0d840f852d58e0f275256a762e78564346",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2022-10-12T05:43:02.000Z",
+    "modelId": "ucinlp/glm-130",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b4321571348ddbeb8153dc",
+    "id": "cammy/glm-roberta-large-finetune",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-05T08:44:37.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "31f3d8fdae7383bfa0479e7c98905fe3b98885a3",
+    "downloads": 4,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tensorboard",
+      "glm",
+      "text2text-generation",
+      "generated_from_trainer",
+      "custom_code",
+      "autotrain_compatible",
+      "region:us"
+    ],
+    "pipeline_tag": "text2text-generation",
+    "library_name": "transformers",
+    "createdAt": "2023-01-03T13:48:05.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": ".gitignore"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "merges.txt"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "runs/Jan05_08-30-28_7745d7291b8c/1672907445.6110845/events.out.tfevents.1672907445.7745d7291b8c.181.1"
+      },
+      {
+        "rfilename": "runs/Jan05_08-30-28_7745d7291b8c/events.out.tfevents.1672907445.7745d7291b8c.181.0"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      },
+      {
+        "rfilename": "vocab.json"
+      }
+    ]
+  },
+  {
+    "_id": "63b69729b24a3784b069c892",
+    "id": "cammy/glm-roberta-large-finetune-p2",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-05T09:56:57.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "42d451c162dc97e9484da1d22d46d5de1a37bed7",
+    "downloads": 2,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tensorboard",
+      "glm",
+      "text2text-generation",
+      "generated_from_trainer",
+      "custom_code",
+      "autotrain_compatible",
+      "region:us"
+    ],
+    "pipeline_tag": "text2text-generation",
+    "library_name": "transformers",
+    "createdAt": "2023-01-05T09:23:53.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune-p2",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": ".gitignore"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "merges.txt"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "runs/Jan05_09-23-47_7745d7291b8c/1672910646.8632047/events.out.tfevents.1672910646.7745d7291b8c.181.4"
+      },
+      {
+        "rfilename": "runs/Jan05_09-23-47_7745d7291b8c/events.out.tfevents.1672910646.7745d7291b8c.181.3"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      },
+      {
+        "rfilename": "vocab.json"
+      }
+    ]
+  },
+  {
+    "_id": "63b6f9ee38471ff4c0825c7d",
+    "id": "cammy/glm-roberta-large-finetune-p3",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-05T16:25:18.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "96dd11ad28a6a146786dc32c97cd966bfb294f17",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-05T16:25:18.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune-p3",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b6fe63a473cd7f8e8a7f64",
+    "id": "cammy/glm-roberta-large-finetune-p4",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-05T16:44:19.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "038654bfe819b212fb9c45ab4ae20a6aa0df4006",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-05T16:44:19.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune-p4",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b7027da473cd7f8e8ac1d2",
+    "id": "cammy/glm-roberta-large-finetune-p2-2",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-05T17:01:49.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "ca4a4ddfa308f2307bc5298881f112b10d049ec9",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-05T17:01:49.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune-p2-2",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b7079d38471ff4c0833f0b",
+    "id": "cammy/glm-roberta-large-tuning-4-0.01",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-07T12:46:46.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "4ce14010c3a8af830d3e5c05b83be7ca8b76e5b8",
+    "downloads": 2,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tensorboard",
+      "glm",
+      "text2text-generation",
+      "custom_code",
+      "autotrain_compatible",
+      "region:us"
+    ],
+    "pipeline_tag": "text2text-generation",
+    "library_name": "transformers",
+    "createdAt": "2023-01-05T17:23:41.000Z",
+    "modelId": "cammy/glm-roberta-large-tuning-4-0.01",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": ".gitignore"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "merges.txt"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "runs/Jan07_12-41-18_821e18845ca1/1673095284.5550632/events.out.tfevents.1673095284.821e18845ca1.1305.7"
+      },
+      {
+        "rfilename": "runs/Jan07_12-41-18_821e18845ca1/events.out.tfevents.1673095284.821e18845ca1.1305.6"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      },
+      {
+        "rfilename": "vocab.json"
+      }
+    ]
+  },
+  {
+    "_id": "63b708faf168593c6fbbbb85",
+    "id": "cammy/glm-roberta-large-tuning-4-0.0001",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-05T17:29:30.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "90cad5580ce5743778e4835617234ba8c1cc3651",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-05T17:29:30.000Z",
+    "modelId": "cammy/glm-roberta-large-tuning-4-0.0001",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b70d28a473cd7f8e8b6dfc",
+    "id": "cammy/glm-roberta-large-tuning-6-0.01",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-05T17:47:20.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "67794456f7224d5933686487b0172ef80cb9f0db",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-05T17:47:20.000Z",
+    "modelId": "cammy/glm-roberta-large-tuning-6-0.01",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b70e5c38471ff4c083a9fa",
+    "id": "cammy/glm-roberta-large-tuning-6-0.0001",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-05T17:52:28.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "2085c77f77aea17df1345034599c16b5696c19c1",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-05T17:52:28.000Z",
+    "modelId": "cammy/glm-roberta-large-tuning-6-0.0001",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b95391593e237fc36ebdc5",
+    "id": "cammy/glm-roberta-large-finetune-p2-2-2",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-07T13:20:19.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "b8a5f178471451158294bba290c6e979d172f6b3",
+    "downloads": 3,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tensorboard",
+      "glm",
+      "text2text-generation",
+      "custom_code",
+      "autotrain_compatible",
+      "region:us"
+    ],
+    "pipeline_tag": "text2text-generation",
+    "library_name": "transformers",
+    "createdAt": "2023-01-07T11:12:17.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune-p2-2-2",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": ".gitignore"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "merges.txt"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "runs/Jan07_13-12-10_821e18845ca1/1673097138.5737278/events.out.tfevents.1673097138.821e18845ca1.1305.17"
+      },
+      {
+        "rfilename": "runs/Jan07_13-12-10_821e18845ca1/events.out.tfevents.1673097138.821e18845ca1.1305.16"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      },
+      {
+        "rfilename": "vocab.json"
+      }
+    ]
+  },
+  {
+    "_id": "63b95574a7c8c806005e0022",
+    "id": "cammy/glm-roberta-large-finetune-p3-3",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-07T13:29:25.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "7a5a613af8b12c619ab53330ee71655cf65407f1",
+    "downloads": 3,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tensorboard",
+      "glm",
+      "text2text-generation",
+      "custom_code",
+      "autotrain_compatible",
+      "region:us"
+    ],
+    "pipeline_tag": "text2text-generation",
+    "library_name": "transformers",
+    "createdAt": "2023-01-07T11:20:20.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune-p3-3",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": ".gitignore"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "merges.txt"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "runs/Jan07_13-20-54_821e18845ca1/1673097661.8862956/events.out.tfevents.1673097661.821e18845ca1.1305.19"
+      },
+      {
+        "rfilename": "runs/Jan07_13-20-54_821e18845ca1/events.out.tfevents.1673097661.821e18845ca1.1305.18"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      },
+      {
+        "rfilename": "vocab.json"
+      }
+    ]
+  },
+  {
+    "_id": "63b95759d86973cc3d1b91e4",
+    "id": "cammy/glm-roberta-large-finetune-p4-4",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-07T11:28:25.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "e342f0a8fc5c8f71645e13cf3c2ecaebfcfbdccd",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-07T11:28:25.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune-p4-4",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b9625300d568f2e6495a81",
+    "id": "cammy/glm-roberta-large-finetune-1",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-07T13:11:34.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "60e7f65ce5604f08845b0c103bf66bf60248d4c6",
+    "downloads": 3,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tensorboard",
+      "glm",
+      "text2text-generation",
+      "custom_code",
+      "autotrain_compatible",
+      "region:us"
+    ],
+    "pipeline_tag": "text2text-generation",
+    "library_name": "transformers",
+    "createdAt": "2023-01-07T12:15:15.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune-1",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": ".gitignore"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "merges.txt"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "runs/Jan07_12-15-09_821e18845ca1/1673093726.1839328/events.out.tfevents.1673093726.821e18845ca1.1305.1"
+      },
+      {
+        "rfilename": "runs/Jan07_12-15-09_821e18845ca1/events.out.tfevents.1673093726.821e18845ca1.1305.0"
+      },
+      {
+        "rfilename": "runs/Jan07_13-02-56_821e18845ca1/1673096582.2435877/events.out.tfevents.1673096582.821e18845ca1.1305.15"
+      },
+      {
+        "rfilename": "runs/Jan07_13-02-56_821e18845ca1/events.out.tfevents.1673096582.821e18845ca1.1305.14"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      },
+      {
+        "rfilename": "vocab.json"
+      }
+    ]
+  },
+  {
+    "_id": "63b9643f593e237fc36fd475",
+    "id": "cammy/glm-roberta-large-tuning-2-0.01",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-07T12:23:27.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "966c3ce1a5df3e092da9e6ed516977d3ee61b56f",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-07T12:23:27.000Z",
+    "modelId": "cammy/glm-roberta-large-tuning-2-0.01",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b96651593e237fc36ff818",
+    "id": "cammy/glm-roberta-large-tuning-2-0.0001",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-07T12:32:17.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "968eebd67159e646cf8c36bcddc554fbe7c8b918",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-07T12:32:17.000Z",
+    "modelId": "cammy/glm-roberta-large-tuning-2-0.0001",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b976ffa7c8c806006040c0",
+    "id": "cammy/glm-roberta-large-finetune-p2-22",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-07T13:43:27.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "13e719fc9920e51a59329279607574c486d172f2",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-07T13:43:27.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune-p2-22",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b9790d00d568f2e64ae5e1",
+    "id": "cammy/glm-roberta-large-finetune-p33",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-07T13:52:13.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "ec493e4416bccfe005ca17f225f367ab3c336e15",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-07T13:52:13.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune-p33",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63b98562593e237fc3721630",
+    "id": "cammy/glm-roberta-large-finetune-p44",
+    "author": "cammy",
+    "gated": false,
+    "lastModified": "2023-01-07T14:44:50.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "23108791cee291bf0483fe3a73e13ccc7f5f24c6",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-01-07T14:44:50.000Z",
+    "modelId": "cammy/glm-roberta-large-finetune-p44",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "63fe16a7a159ef722e8d47f3",
+    "id": "THUDM/glm-10b-chinese",
+    "author": "THUDM",
+    "gated": false,
+    "lastModified": "2023-03-04T12:41:01.000Z",
+    "likes": 119,
+    "private": false,
+    "sha": "01717dd11fb4d3a80c465eee9eb4789bc954046d",
+    "downloads": 47,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "glm",
+      "feature-extraction",
+      "thudm",
+      "custom_code",
+      "zh",
+      "arxiv:2103.10360",
+      "has_space",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2023-02-28T14:58:47.000Z",
+    "modelId": "THUDM/glm-10b-chinese",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "cog-pretrain.model"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_glm.py"
+      },
+      {
+        "rfilename": "modeling_glm.py"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "tokenization_glm.py"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  },
+  {
+    "_id": "63fe2d8449632f13d06b3977",
+    "id": "THUDM/glm-10b",
+    "author": "THUDM",
+    "gated": false,
+    "lastModified": "2023-03-02T13:50:18.000Z",
+    "likes": 33,
+    "private": false,
+    "sha": "696788d4f82ac96b90823555f547d1e754839ff4",
+    "downloads": 202,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "glm",
+      "feature-extraction",
+      "thudm",
+      "custom_code",
+      "en",
+      "arxiv:2103.10360",
+      "has_space",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2023-02-28T16:36:20.000Z",
+    "modelId": "THUDM/glm-10b",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_glm.py"
+      },
+      {
+        "rfilename": "merges.txt"
+      },
+      {
+        "rfilename": "modeling_glm.py"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "tokenization_glm.py"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "vocab.json"
+      }
+    ]
+  },
+  {
+    "_id": "63feb99dd488ac513a80fc28",
+    "id": "THUDM/glm-2b",
+    "author": "THUDM",
+    "gated": false,
+    "lastModified": "2023-03-02T13:49:21.000Z",
+    "likes": 13,
+    "private": false,
+    "sha": "774fda883d7ad028b8effc3c65afec510fce9634",
+    "downloads": 54,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "glm",
+      "feature-extraction",
+      "thudm",
+      "custom_code",
+      "en",
+      "arxiv:2103.10360",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2023-03-01T02:34:05.000Z",
+    "modelId": "THUDM/glm-2b",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_glm.py"
+      },
+      {
+        "rfilename": "merges.txt"
+      },
+      {
+        "rfilename": "modeling_glm.py"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "tokenization_glm.py"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "vocab.json"
+      }
+    ]
+  },
+  {
+    "_id": "63fed125d488ac513a829c78",
+    "id": "THUDM/glm-large-chinese",
+    "author": "THUDM",
+    "gated": false,
+    "lastModified": "2023-03-02T13:45:22.000Z",
+    "likes": 32,
+    "private": false,
+    "sha": "230f54e413fab4bc8f29bd3508aab301d757ef3e",
+    "downloads": 646,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "glm",
+      "feature-extraction",
+      "thudm",
+      "custom_code",
+      "zh",
+      "arxiv:2103.10360",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2023-03-01T04:14:29.000Z",
+    "modelId": "THUDM/glm-large-chinese",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "cog-pretrain.model"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_glm.py"
+      },
+      {
+        "rfilename": "modeling_glm.py"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "tokenization_glm.py"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  },
+  {
+    "_id": "63fed2577a7f94a38aeae5a8",
+    "id": "THUDM/glm-roberta-large",
+    "author": "THUDM",
+    "gated": false,
+    "lastModified": "2023-03-02T13:52:52.000Z",
+    "likes": 4,
+    "private": false,
+    "sha": "89621ea13317286dcd459c0206b86ebc1a1d84b9",
+    "downloads": 20,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "glm",
+      "feature-extraction",
+      "thudm",
+      "custom_code",
+      "en",
+      "arxiv:2103.10360",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2023-03-01T04:19:35.000Z",
+    "modelId": "THUDM/glm-roberta-large",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_glm.py"
+      },
+      {
+        "rfilename": "merges.txt"
+      },
+      {
+        "rfilename": "modeling_glm.py"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "tokenization_glm.py"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "vocab.json"
+      }
+    ]
+  },
+  {
+    "_id": "640c35c7f1a15f14cdec7ee8",
+    "id": "zd21/mabel-glm-roberta-large",
+    "author": "zd21",
+    "gated": "auto",
+    "lastModified": "2023-03-11T09:07:51.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "c91ae35fd3057ea978a9ef9b691c15783d4eae95",
+    "downloads": 0,
+    "tags": ["transformers", "pytorch", "glm", "custom_code", "endpoints_compatible", "region:us"],
+    "library_name": "transformers",
+    "createdAt": "2023-03-11T08:03:19.000Z",
+    "modelId": "zd21/mabel-glm-roberta-large",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_glm_roberta_large.py"
+      },
+      {
+        "rfilename": "log.txt"
+      },
+      {
+        "rfilename": "merges.txt"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "train_results.txt"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      },
+      {
+        "rfilename": "vocab.json"
+      }
+    ]
+  },
+  {
+    "_id": "64186f498b14a25b75839628",
+    "id": "JerryWu/GLM6BTalk-model",
+    "author": "JerryWu",
+    "gated": false,
+    "lastModified": "2023-03-20T14:41:39.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "9e16e868c74b66c7ef187cccd31c613ac0b27305",
+    "downloads": 1,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "chatglm",
+      "feature-extraction",
+      "custom_code",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2023-03-20T14:35:53.000Z",
+    "modelId": "JerryWu/GLM6BTalk-model",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_chatglm.py"
+      },
+      {
+        "rfilename": "generation_config.json"
+      },
+      {
+        "rfilename": "modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "quantization.py"
+      }
+    ]
+  },
+  {
+    "_id": "641872d508588020c7a910b0",
+    "id": "JerryWu/GLMTalk-model-CPU",
+    "author": "JerryWu",
+    "gated": false,
+    "lastModified": "2023-03-20T14:58:45.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "79483493607b4c7594b6973168bbbe9609dfb877",
+    "downloads": 6,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "chatglm",
+      "feature-extraction",
+      "custom_code",
+      "has_space",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2023-03-20T14:51:01.000Z",
+    "modelId": "JerryWu/GLMTalk-model-CPU",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_chatglm.py"
+      },
+      {
+        "rfilename": "generation_config.json"
+      },
+      {
+        "rfilename": "modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pytorch_model-00001-of-00003.bin"
+      },
+      {
+        "rfilename": "pytorch_model-00002-of-00003.bin"
+      },
+      {
+        "rfilename": "pytorch_model-00003-of-00003.bin"
+      },
+      {
+        "rfilename": "pytorch_model.bin.index.json"
+      },
+      {
+        "rfilename": "quantization.py"
+      }
+    ]
+  },
+  {
+    "_id": "641c6bdd0d7b2cc2db0adfc3",
+    "id": "silk-road/CamelBell-Chinese-GLM-6B-lora",
+    "author": "silk-road",
+    "gated": false,
+    "lastModified": "2023-03-23T15:12:18.000Z",
+    "likes": 1,
+    "private": false,
+    "sha": "7766355b97e78558960fbb2b4d987b0d3873383d",
+    "downloads": 0,
+    "tags": ["license:apache-2.0", "region:us"],
+    "createdAt": "2023-03-23T15:10:21.000Z",
+    "modelId": "silk-road/CamelBell-Chinese-GLM-6B-lora",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "641e950363d9d99d8c1a849e",
+    "id": "ljsabc/Fujisaki_GLM",
+    "author": "ljsabc",
+    "gated": false,
+    "lastModified": "2023-05-04T02:41:21.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "2bf665ba2b80ac13918f9160ba67195ace2847da",
+    "downloads": 0,
+    "tags": ["license:mit", "has_space", "region:us"],
+    "createdAt": "2023-03-25T06:30:27.000Z",
+    "modelId": "ljsabc/Fujisaki_GLM",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "642ed322077daa71793dc129",
+    "id": "sunzeyeah/glm-10B-chinese",
+    "author": "sunzeyeah",
+    "gated": false,
+    "lastModified": "2023-04-06T14:25:38.000Z",
+    "likes": 3,
+    "private": false,
+    "sha": "ef8d447697da5deff0f6d57db4bbeab049a743b8",
+    "downloads": 1,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "glm",
+      "feature-extraction",
+      "chatgpt",
+      "custom_code",
+      "zh",
+      "arxiv:2103.10360",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2023-04-06T14:11:46.000Z",
+    "modelId": "sunzeyeah/glm-10B-chinese",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "cog-pretrain.model"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_glm.py"
+      },
+      {
+        "rfilename": "modeling_glm.py"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "tokenization_glm.py"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  },
+  {
+    "_id": "642ed3306bf69c001195fe9f",
+    "id": "sunzeyeah/glm-350M-chinese",
+    "author": "sunzeyeah",
+    "gated": false,
+    "lastModified": "2023-04-06T14:21:17.000Z",
+    "likes": 2,
+    "private": false,
+    "sha": "5f529af62beb402eb020b0968ad0ba8a02259b56",
+    "downloads": 2,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "glm",
+      "feature-extraction",
+      "chatgpt",
+      "custom_code",
+      "zh",
+      "arxiv:2103.10360",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2023-04-06T14:12:00.000Z",
+    "modelId": "sunzeyeah/glm-350M-chinese",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "cog-pretrain.model"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_glm.py"
+      },
+      {
+        "rfilename": "modeling_glm.py"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "tokenization_glm.py"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  },
+  {
+    "_id": "643992b95813f0fdd853cda9",
+    "id": "GlmKing/GlmKing",
+    "author": "GlmKing",
+    "gated": false,
+    "lastModified": "2023-04-14T17:51:53.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "e367d4a549da6d74980d22e1a748b9ce94582df6",
+    "downloads": 0,
+    "tags": ["license:apache-2.0", "region:us"],
+    "createdAt": "2023-04-14T17:51:53.000Z",
+    "modelId": "GlmKing/GlmKing",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      }
+    ]
+  },
+  {
+    "_id": "643e5dc9d3cbe32f7630ba5c",
+    "id": "ianZzzzzz/GLM-130B-quant-int4-4gpu",
+    "author": "ianZzzzzz",
+    "gated": false,
+    "lastModified": "2023-04-20T12:16:57.000Z",
+    "likes": 11,
+    "private": false,
+    "sha": "8d290caa72ab3fda037e79900613be99bf03a183",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-04-18T09:07:21.000Z",
+    "modelId": "ianZzzzzz/GLM-130B-quant-int4-4gpu",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "49300/mp_rank_00_model_states.pt"
+      },
+      {
+        "rfilename": "49300/mp_rank_01_model_states.pt"
+      },
+      {
+        "rfilename": "49300/mp_rank_02_model_states.pt"
+      },
+      {
+        "rfilename": "49300/mp_rank_03_model_states.pt"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "latest"
+      }
+    ]
+  },
+  {
+    "_id": "644546ee0f2fc80feb24ad7d",
+    "id": "noaper/glm",
+    "author": "noaper",
+    "gated": false,
+    "lastModified": "2023-04-23T14:55:42.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "2b52432c0b4e1e03c967332eeb055805ba9dab98",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-04-23T14:55:42.000Z",
+    "modelId": "noaper/glm",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "645cdc898a63155046d93bda",
+    "id": "cgt/glm-130bint4",
+    "author": "cgt",
+    "gated": false,
+    "lastModified": "2023-05-11T12:16:09.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "e57b3b54080df0347acc7015e0130b0a65669b93",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-05-11T12:16:09.000Z",
+    "modelId": "cgt/glm-130bint4",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "647ec03c5214d172cbd29f7e",
+    "id": "CeroShrijver/glm-large-chinese-text-classification",
+    "author": "CeroShrijver",
+    "gated": false,
+    "lastModified": "2023-06-06T13:35:00.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "76310e6fb17135817eb039f644bbb93efc05460d",
+    "downloads": 3,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "glm",
+      "text-classification",
+      "generated_from_trainer",
+      "custom_code",
+      "autotrain_compatible",
+      "region:us"
+    ],
+    "pipeline_tag": "text-classification",
+    "library_name": "transformers",
+    "createdAt": "2023-06-06T05:12:28.000Z",
+    "modelId": "CeroShrijver/glm-large-chinese-text-classification",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": ".gitignore"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "cog-pretrain.model"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_glm.py"
+      },
+      {
+        "rfilename": "modeling_glm.py"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_glm.py"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "6484731893affaeb91c2f32d",
+    "id": "Jyshen/Chat_Suzumiya_GLM2LoRA",
+    "author": "Jyshen",
+    "gated": false,
+    "lastModified": "2023-07-05T09:39:57.000Z",
+    "likes": 1,
+    "private": false,
+    "sha": "5eb2b9e6c6ab50d8085118a567c53422969410a0",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-06-10T12:56:56.000Z",
+    "modelId": "Jyshen/Chat_Suzumiya_GLM2LoRA",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64899cb4a9d27ef5f8c2c805",
+    "id": "stelee/GLM_LORA",
+    "author": "stelee",
+    "gated": false,
+    "lastModified": "2023-06-14T10:55:48.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "11eac335e5ee2e2d5538dd0d39f858f1b1cbdb99",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-06-14T10:55:48.000Z",
+    "modelId": "stelee/GLM_LORA",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "64906c429e478d97abe4a664",
+    "id": "teddy0413/Accounting_glm0619",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-06-19T14:55:02.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "cbe7f9e21e25042fa6a6b14dd8ee16e451ac13e1",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-06-19T14:54:58.000Z",
+    "modelId": "teddy0413/Accounting_glm0619",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64981a93ebf2c4b5955318ba",
+    "id": "teddy0413/Accounting_glm0625",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-06-26T16:41:04.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "749ea176f96e7fff3ab8b4ff94a612207b7a230a",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-06-25T10:44:35.000Z",
+    "modelId": "teddy0413/Accounting_glm0625",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "6499bfa71ced6847e30a8a6f",
+    "id": "teddy0413/Accounting_glm0627",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-06-26T16:41:13.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "88a9d7a6f5047c6a65a8bc5b00fdccb583958746",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-06-26T16:41:11.000Z",
+    "modelId": "teddy0413/Accounting_glm0627",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "649b00b69517e9326e66856d",
+    "id": "teddy0413/Accounting_glm0627_1",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-06-27T15:31:05.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "3ece12ab0b50461dbc9a16ef9c64dbf006dc2267",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-06-27T15:31:02.000Z",
+    "modelId": "teddy0413/Accounting_glm0627_1",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "649d43a2e41931df0edb9ddd",
+    "id": "chokwin/glm130",
+    "author": "chokwin",
+    "gated": "manual",
+    "lastModified": "2023-06-29T08:41:06.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "ac7f4d81ae5687ef9a115ecd4380321c389f66d0",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-06-29T08:41:06.000Z",
+    "modelId": "chokwin/glm130",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "64a524d85a9c6968f100a790",
+    "id": "zimo22/GLM-ZS",
+    "author": "zimo22",
+    "gated": false,
+    "lastModified": "2023-07-05T08:07:52.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "cb4f0678a8efdac38ca23b0da6720531f26cc5ff",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-07-05T08:07:52.000Z",
+    "modelId": "zimo22/GLM-ZS",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "64a7fa2902e765d52e51b449",
+    "id": "law-llm/law-glm-10b",
+    "author": "law-llm",
+    "gated": false,
+    "lastModified": "2023-07-08T09:11:24.000Z",
+    "likes": 2,
+    "private": false,
+    "sha": "f602500b9500ff073a0ef6d36a71d04795316c09",
+    "downloads": 2,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "glm",
+      "text2text-generation",
+      "custom_code",
+      "license:apache-2.0",
+      "autotrain_compatible",
+      "has_space",
+      "region:us"
+    ],
+    "pipeline_tag": "text2text-generation",
+    "library_name": "transformers",
+    "createdAt": "2023-07-07T11:42:33.000Z",
+    "modelId": "law-llm/law-glm-10b",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "cog-pretrain.model"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "generation_config.json"
+      },
+      {
+        "rfilename": "pytorch_model-00001-of-00004.bin"
+      },
+      {
+        "rfilename": "pytorch_model-00002-of-00004.bin"
+      },
+      {
+        "rfilename": "pytorch_model-00003-of-00004.bin"
+      },
+      {
+        "rfilename": "pytorch_model-00004-of-00004.bin"
+      },
+      {
+        "rfilename": "pytorch_model.bin.index.json"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  },
+  {
+    "_id": "64abab528f35ca41947e75e4",
+    "id": "fredrickrsq/Chat_Suzumiya_GLM2LoRA",
+    "author": "fredrickrsq",
+    "gated": false,
+    "lastModified": "2023-07-10T06:58:41.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "3506170f1d40786cae46151024d8886b99b8b02a",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-07-10T06:55:14.000Z",
+    "modelId": "fredrickrsq/Chat_Suzumiya_GLM2LoRA",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64cb1e19b704b851478c34bd",
+    "id": "zjzju/frz-nt-glm",
+    "author": "zjzju",
+    "gated": false,
+    "lastModified": "2023-08-03T10:20:07.000Z",
+    "likes": 1,
+    "private": false,
+    "sha": "bfbbecc146b185f2959e34759c9a74c384a52a4c",
+    "downloads": 1,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "tensorboard",
+      "chatglm",
+      "feature-extraction",
+      "custom_code",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2023-08-03T03:25:13.000Z",
+    "modelId": "zjzju/frz-nt-glm",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "all_results.json"
+      },
+      {
+        "rfilename": "checkpoint-1000/config.json"
+      },
+      {
+        "rfilename": "checkpoint-1000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-1000/finetuning_args.json"
+      },
+      {
+        "rfilename": "checkpoint-1000/generation_config.json"
+      },
+      {
+        "rfilename": "checkpoint-1000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-1000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-1000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "checkpoint-1000/quantization.py"
+      },
+      {
+        "rfilename": "checkpoint-1000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "checkpoint-1000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "checkpoint-1000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "checkpoint-1000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "checkpoint-1000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-1000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-1000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-1000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-1000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-1000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-1000/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-2000/config.json"
+      },
+      {
+        "rfilename": "checkpoint-2000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-2000/finetuning_args.json"
+      },
+      {
+        "rfilename": "checkpoint-2000/generation_config.json"
+      },
+      {
+        "rfilename": "checkpoint-2000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-2000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-2000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "checkpoint-2000/quantization.py"
+      },
+      {
+        "rfilename": "checkpoint-2000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "checkpoint-2000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "checkpoint-2000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "checkpoint-2000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "checkpoint-2000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-2000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-2000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-2000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-2000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-2000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-2000/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-3000/config.json"
+      },
+      {
+        "rfilename": "checkpoint-3000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-3000/finetuning_args.json"
+      },
+      {
+        "rfilename": "checkpoint-3000/generation_config.json"
+      },
+      {
+        "rfilename": "checkpoint-3000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-3000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-3000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "checkpoint-3000/quantization.py"
+      },
+      {
+        "rfilename": "checkpoint-3000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "checkpoint-3000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "checkpoint-3000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "checkpoint-3000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "checkpoint-3000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-3000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-3000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-3000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-3000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-3000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-3000/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-4000/config.json"
+      },
+      {
+        "rfilename": "checkpoint-4000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-4000/finetuning_args.json"
+      },
+      {
+        "rfilename": "checkpoint-4000/generation_config.json"
+      },
+      {
+        "rfilename": "checkpoint-4000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-4000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-4000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "checkpoint-4000/quantization.py"
+      },
+      {
+        "rfilename": "checkpoint-4000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "checkpoint-4000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "checkpoint-4000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "checkpoint-4000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "checkpoint-4000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-4000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-4000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-4000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-4000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-4000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-4000/training_args.bin"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_chatglm.py"
+      },
+      {
+        "rfilename": "finetuning_args.json"
+      },
+      {
+        "rfilename": "generation_config.json"
+      },
+      {
+        "rfilename": "modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "quantization.py"
+      },
+      {
+        "rfilename": "runs/Aug01_10-45-37_ip-172-31-72-127/events.out.tfevents.1690886874.ip-172-31-72-127.2313011.0"
+      },
+      {
+        "rfilename": "runs/Aug01_10-48-39_ip-172-31-72-127/events.out.tfevents.1690887057.ip-172-31-72-127.2314553.0"
+      },
+      {
+        "rfilename": "runs/Aug01_10-55-01_ip-172-31-72-127/events.out.tfevents.1690887438.ip-172-31-72-127.2317680.0"
+      },
+      {
+        "rfilename": "runs/Aug01_10-58-34_ip-172-31-72-127/events.out.tfevents.1690887651.ip-172-31-72-127.2319667.0"
+      },
+      {
+        "rfilename": "runs/Aug01_11-04-29_ip-172-31-72-127/events.out.tfevents.1690888007.ip-172-31-72-127.2322272.0"
+      },
+      {
+        "rfilename": "runs/Aug01_11-07-41_ip-172-31-72-127/events.out.tfevents.1690888199.ip-172-31-72-127.2323921.0"
+      },
+      {
+        "rfilename": "runs/Aug01_11-11-10_ip-172-31-72-127/events.out.tfevents.1690888407.ip-172-31-72-127.2325679.0"
+      },
+      {
+        "rfilename": "runs/Aug02_02-22-15_ip-172-31-72-127/events.out.tfevents.1690943071.ip-172-31-72-127.2474016.0"
+      },
+      {
+        "rfilename": "runs/Aug02_02-49-56_ip-172-31-72-127/events.out.tfevents.1690944733.ip-172-31-72-127.2481410.0"
+      },
+      {
+        "rfilename": "runs/Aug02_03-28-30_ip-172-31-72-127/events.out.tfevents.1690947047.ip-172-31-72-127.2482663.0"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "train_results.json"
+      },
+      {
+        "rfilename": "trainer_log.jsonl"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      },
+      {
+        "rfilename": "training_loss.png"
+      }
+    ]
+  },
+  {
+    "_id": "64cb28960d0e2410ee7ce879",
+    "id": "zjzju/pt-nt-glm",
+    "author": "zjzju",
+    "gated": false,
+    "lastModified": "2023-08-03T04:12:36.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "805d88656a6ae623f48af1e4fd581d8e8e61e242",
+    "downloads": 0,
+    "tags": ["tensorboard", "region:us"],
+    "createdAt": "2023-08-03T04:09:58.000Z",
+    "modelId": "zjzju/pt-nt-glm",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/all_results.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/finetuning_args.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/generation_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/optimizer.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/quantization.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/scheduler.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/tokenizer.model"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/trainer_state.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-1000/training_args.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/finetuning_args.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/generation_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/optimizer.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/quantization.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/scheduler.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/tokenizer.model"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/trainer_state.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-2000/training_args.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/finetuning_args.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/generation_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/optimizer.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/quantization.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/scheduler.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/tokenizer.model"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/trainer_state.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-3000/training_args.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/finetuning_args.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/generation_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/optimizer.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/quantization.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/scheduler.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/tokenizer.model"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/trainer_state.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-4000/training_args.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/finetuning_args.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/generation_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/optimizer.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/quantization.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/scheduler.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/tokenizer.model"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/trainer_state.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-5000/training_args.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/finetuning_args.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/generation_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/optimizer.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/quantization.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/scheduler.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/tokenizer.model"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/trainer_state.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-6000/training_args.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/finetuning_args.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/generation_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/optimizer.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/quantization.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/scheduler.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/tokenizer.model"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/trainer_state.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-7000/training_args.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/finetuning_args.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/generation_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/optimizer.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/pytorch_model.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/quantization.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/rng_state_0.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/rng_state_1.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/rng_state_2.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/rng_state_3.pth"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/scheduler.pt"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/tokenizer.model"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/trainer_state.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/checkpoint-8000/training_args.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/configuration_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/finetuning_args.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/generation_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/modeling_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/pytorch_model.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/quantization.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/runs/Aug02_13-13-56_ip-172-31-72-127/events.out.tfevents.1690982173.ip-172-31-72-127.2631628.0"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/runs/Aug02_13-18-16_ip-172-31-72-127/events.out.tfevents.1690982432.ip-172-31-72-127.2632931.0"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/special_tokens_map.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/tokenizer.model"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/tokenizer_config.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/train_results.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/trainer_log.jsonl"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/trainer_state.json"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/training_args.bin"
+      },
+      {
+        "rfilename": "pt-7wntglmv2/training_loss.png"
+      }
+    ]
+  },
+  {
+    "_id": "64cbd15c0bf3949c691666c3",
+    "id": "teddy0413/Accounting_glm0804_1",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-08-03T16:10:10.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "1aedc69dc0c0b65c606c163c24b445c8afdbb4f4",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-08-03T16:10:04.000Z",
+    "modelId": "teddy0413/Accounting_glm0804_1",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64ccf780a4b6cb0ca550e919",
+    "id": "teddy0413/Accounting_glm0804_2",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-08-04T13:05:07.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "b4950b8f6d8b3e83170a2623d167c97641ebd830",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-08-04T13:05:04.000Z",
+    "modelId": "teddy0413/Accounting_glm0804_2",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64cd40eb9c245c6ba7f13b18",
+    "id": "teddy0413/Accounting_glm0805_1",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-08-04T18:18:24.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "c0ff27d86031b8d44bdb0b53c46e0b42d879b6b5",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-08-04T18:18:19.000Z",
+    "modelId": "teddy0413/Accounting_glm0805_1",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64cd4b3a2f1f9578a0d20648",
+    "id": "teddy0413/Accounting_glm0805_1_2",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-08-04T19:02:27.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "64ca72714e25c647644ef9cff7d91c4bc243a8ec",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-08-04T19:02:18.000Z",
+    "modelId": "teddy0413/Accounting_glm0805_1_2",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64cf768e7d8cc9f07012b8ea",
+    "id": "Sylvia-yl/glm-zero",
+    "author": "Sylvia-yl",
+    "gated": false,
+    "lastModified": "2023-08-06T10:31:42.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "48f1480972c4060f4de42ad03bd743fc5ddce174",
+    "downloads": 0,
+    "tags": ["license:openrail", "region:us"],
+    "createdAt": "2023-08-06T10:31:42.000Z",
+    "modelId": "Sylvia-yl/glm-zero",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      }
+    ]
+  },
+  {
+    "_id": "64d405bf9506a64b0e3942aa",
+    "id": "InfiniTeemo/glm2-6b",
+    "author": "InfiniTeemo",
+    "gated": false,
+    "lastModified": "2023-08-09T21:31:43.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "da2539dcc2eba9d38bd3eb199d1c6c46a77322de",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-08-09T21:31:43.000Z",
+    "modelId": "InfiniTeemo/glm2-6b",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "64df3048d1885643ca4201ca",
+    "id": "teddy0413/Accounting_glm0818_01",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-08-18T08:48:12.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "11b38b1e99a947dc9e0ee47682895529452d9fc4",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-08-18T08:48:08.000Z",
+    "modelId": "teddy0413/Accounting_glm0818_01",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64dfc07387a7332d257d5820",
+    "id": "teddy0413/glm0818_final",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-08-18T19:03:20.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "b31fdb9d5d9656ba4924f7fd06862f81be35f4c4",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-08-18T19:03:15.000Z",
+    "modelId": "teddy0413/glm0818_final",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64e0b331ee2904562261a622",
+    "id": "teddy0413/glm0819_final",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-08-19T12:19:02.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "1446b50851b9d4766089980cdf709113d1e6afdc",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-08-19T12:18:57.000Z",
+    "modelId": "teddy0413/glm0819_final",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64e6d0893b9c1e300ef7ba69",
+    "id": "Mikey43/glm-130b",
+    "author": "Mikey43",
+    "gated": false,
+    "lastModified": "2023-08-24T03:37:45.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "f2bfb80f27117592482ccae13b19d4f1eb216480",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-08-24T03:37:45.000Z",
+    "modelId": "Mikey43/glm-130b",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "64eaa59bb8c49e360dd74400",
+    "id": "kiki22304/glmmoniquetst",
+    "author": "kiki22304",
+    "gated": false,
+    "lastModified": "2023-08-27T01:50:00.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "1bcf453f7226dd2dd7c19cc284f2edbe4a0aacd1",
+    "downloads": 0,
+    "tags": ["transformers", "endpoints_compatible", "region:us"],
+    "library_name": "transformers",
+    "createdAt": "2023-08-27T01:23:39.000Z",
+    "modelId": "kiki22304/glmmoniquetst",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "filelist.txt"
+      },
+      {
+        "rfilename": "glammoniquetest.zip"
+      },
+      {
+        "rfilename": "mi-test.zip"
+      }
+    ]
+  },
+  {
+    "_id": "64ef2893743a39847c8b9f87",
+    "id": "KimJY/GLM-13B-gptq-4bit",
+    "author": "KimJY",
+    "gated": false,
+    "lastModified": "2023-08-30T11:59:57.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "ce4129f183aac378fb5ae4bfd8a614efd9518b5e",
+    "downloads": 14,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "llama",
+      "text-generation",
+      "autotrain_compatible",
+      "endpoints_compatible",
+      "text-generation-inference",
+      "4-bit",
+      "region:us"
+    ],
+    "pipeline_tag": "text-generation",
+    "library_name": "transformers",
+    "createdAt": "2023-08-30T11:31:31.000Z",
+    "modelId": "KimJY/GLM-13B-gptq-4bit",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "added_tokens.json"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "generation_config.json"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer.json"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  },
+  {
+    "_id": "64ef5ed04bc8f7c93650e2fe",
+    "id": "Ancient237/glm_lora",
+    "author": "Ancient237",
+    "gated": false,
+    "lastModified": "2023-08-30T15:23:42.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "32bb039a5742c183462b03d4047d94712a15409c",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-08-30T15:22:56.000Z",
+    "modelId": "Ancient237/glm_lora",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64f1547500b032576eaf0d77",
+    "id": "rijulnandy/glmisconduct",
+    "author": "rijulnandy",
+    "gated": false,
+    "lastModified": "2023-09-01T03:04:59.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "a80c7ec5f5ebcf5332ebfd44ae5dcd9fc23410b8",
+    "downloads": 4,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "distilbert",
+      "token-classification",
+      "autotrain_compatible",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "pipeline_tag": "token-classification",
+    "library_name": "transformers",
+    "createdAt": "2023-09-01T03:03:17.000Z",
+    "modelId": "rijulnandy/glmisconduct",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64ff16f6f4d6f2b9bfd5cb94",
+    "id": "teddy0413/glm0911_37000",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-09-11T13:32:43.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "1f6afc34ca65ca13fd1bc615f15e5699fbad337b",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-09-11T13:32:38.000Z",
+    "modelId": "teddy0413/glm0911_37000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64ff30bed3b76fd7b4d91172",
+    "id": "teddy0413/glm0911_37000_true",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-09-11T15:22:43.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "3a22bfa64e3ce6d96f89afb9eb4c0bc052b39018",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-09-11T15:22:38.000Z",
+    "modelId": "teddy0413/glm0911_37000_true",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "64ff32a4fa4f2081707ced51",
+    "id": "teddy0413/glm0911_36000",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-09-11T15:30:49.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "125e712459697fca233a8c67eac9a7107d052877",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-09-11T15:30:44.000Z",
+    "modelId": "teddy0413/glm0911_36000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "65106ed2be0fdd6ffe95e3ad",
+    "id": "teddy0413/glm0924_50000",
+    "author": "teddy0413",
+    "gated": false,
+    "lastModified": "2023-09-24T17:16:07.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "0221d9781d695b612e09b5a7920b086ea3bc73f2",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-09-24T17:16:02.000Z",
+    "modelId": "teddy0413/glm0924_50000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "65167bc191f9ac60d38a5fe7",
+    "id": "shubham-K/WEB_GLM",
+    "author": "shubham-K",
+    "gated": false,
+    "lastModified": "2023-09-29T07:24:49.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "ddd53a93e4bf89a7f1d8eeb046458e60d6f90722",
+    "downloads": 0,
+    "tags": ["license:apache-2.0", "region:us"],
+    "createdAt": "2023-09-29T07:24:49.000Z",
+    "modelId": "shubham-K/WEB_GLM",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      }
+    ]
+  },
+  {
+    "_id": "6523d8cc3a3b8c4b40c33407",
+    "id": "law-llm/law-glm-10b-v2",
+    "author": "law-llm",
+    "gated": false,
+    "lastModified": "2023-10-09T10:41:16.000Z",
+    "likes": 1,
+    "private": false,
+    "sha": "d95e7ba9cf2fa10f072950478ff3c5a85f92e7de",
+    "downloads": 0,
+    "tags": ["license:apache-2.0", "region:us"],
+    "createdAt": "2023-10-09T10:41:16.000Z",
+    "modelId": "law-llm/law-glm-10b-v2",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      }
+    ]
+  },
+  {
+    "_id": "652bfa472ecb5062d6c44b6d",
+    "id": "wkrain/glm_patent",
+    "author": "wkrain",
+    "gated": false,
+    "lastModified": "2023-10-15T14:42:15.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "c75da526cbf3ac6a60587f3b7bb8fff000d8b55a",
+    "downloads": 0,
+    "tags": ["license:apache-2.0", "region:us"],
+    "createdAt": "2023-10-15T14:42:15.000Z",
+    "modelId": "wkrain/glm_patent",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      }
+    ]
+  },
+  {
+    "_id": "6559fb0a5f93aee96ed2d4e3",
+    "id": "viobert/glm-roberta-large-finetuned-wikitext",
+    "author": "viobert",
+    "gated": false,
+    "lastModified": "2023-11-19T12:09:46.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "4b0ade44898ca9237facbcc960aa51b09fe6ae18",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2023-11-19T12:09:46.000Z",
+    "modelId": "viobert/glm-roberta-large-finetuned-wikitext",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "6569b1174e2f694cf5a89146",
+    "id": "yily/glm-lora-stroke-25000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-01T10:11:02.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "f6ef7ef1ff5382ea2721a159dacd0dbd67b7cfb3",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-01T10:10:31.000Z",
+    "modelId": "yily/glm-lora-stroke-25000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "6569da6111b1195d498e4153",
+    "id": "yily/glm-lora-stroke-38000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-01T13:07:38.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "d9bf85648c3e57c5560067e508d5e3d7acfabe64",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-01T13:06:41.000Z",
+    "modelId": "yily/glm-lora-stroke-38000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656ca0f23eb5f0b6a930385a",
+    "id": "yily/glm-lora-stroke-12000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-03T15:44:34.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "bca695f160163ee44c2bb799e74043d579e256d9",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-03T15:38:26.000Z",
+    "modelId": "yily/glm-lora-stroke-12000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656ca81fc497edf0a7937d08",
+    "id": "yily/glm-lora-stroke-46000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-03T16:10:11.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "b1e6069047aad3f15331f8a1c3e996edb0572251",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-03T16:09:03.000Z",
+    "modelId": "yily/glm-lora-stroke-46000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656ca97153703dd78f8d9b27",
+    "id": "yily/glm-lora-stroke-47000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-03T16:15:39.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "429337b26d6791f0e3c03345a065b077ff4b944d",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-03T16:14:41.000Z",
+    "modelId": "yily/glm-lora-stroke-47000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656d75e202a56b531aceeb47",
+    "id": "yily/glm-nwfe-sft-5000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-04T06:47:57.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "7b092aa4829beaab7306ccf4322fb52974e00b7c",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-04T06:46:58.000Z",
+    "modelId": "yily/glm-nwfe-sft-5000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656d764cd848a6683a0bc3e7",
+    "id": "yily/glm-nwfe-sft-10000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-04T06:49:55.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "5ca705b6c45bbfe780eb237e4082d4ed9ba71fdc",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-04T06:48:44.000Z",
+    "modelId": "yily/glm-nwfe-sft-10000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656d76ec90d556ffa6333b33",
+    "id": "yily/glm-nwfe-sft-20000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-04T06:51:46.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "f9011e99b247af1858cc9840fab8e0ef980371e3",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-04T06:51:24.000Z",
+    "modelId": "yily/glm-nwfe-sft-20000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656d7728adba74cd5e9834e5",
+    "id": "yily/glm-nwfe-sft-30000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-04T06:54:03.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "6bbefb28ccb33e1cf10f5bb432f6fc76cc2eacf3",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-04T06:52:24.000Z",
+    "modelId": "yily/glm-nwfe-sft-30000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656d7740efd0eea7c5d6935c",
+    "id": "yily/glm-nwfe-sft-40000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-04T06:56:09.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "f2e0b8a2b6bf85632ec4313553fd9377200cb7cc",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-04T06:52:48.000Z",
+    "modelId": "yily/glm-nwfe-sft-40000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656d774d09d123964bfafe4b",
+    "id": "yily/glm-nwfe-sft-50000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-04T06:57:45.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "3c4a90cdb4f64817b36d3998044f91f7550ccaa6",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-04T06:53:01.000Z",
+    "modelId": "yily/glm-nwfe-sft-50000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656d83d1e0ff1cebe9977377",
+    "id": "yily/glm-nwfe-sft-70000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-04T07:47:13.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "c29074dbfd2c95cf21eb2c96bd94e504d6b13978",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-04T07:46:25.000Z",
+    "modelId": "yily/glm-nwfe-sft-70000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656d96de855629969808484a",
+    "id": "yily/glm-stroke-rm-53000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-04T09:08:13.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "0f4d741830eb4f02564d03913709327bfd435943",
+    "downloads": 0,
+    "tags": ["peft", "pytorch", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-04T09:07:42.000Z",
+    "modelId": "yily/glm-stroke-rm-53000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": ".ipynb_checkpoints/trainer_state-checkpoint.json"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656d9a049ced9d5ff5964fb4",
+    "id": "yily/glm-nwfe-sft-77000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-04T09:22:18.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "f2044217e784191339507f5b75a0e4eecb671e80",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-04T09:21:08.000Z",
+    "modelId": "yily/glm-nwfe-sft-77000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656e91b3228bbe9eb4692121",
+    "id": "yily/glm-base-nwfe-sft-52000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-05T02:58:29.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "4c1e304824690984cfb4805e34c5e3cb7e8b5edb",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-05T02:57:55.000Z",
+    "modelId": "yily/glm-base-nwfe-sft-52000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "656ec59475d92cf286f620f9",
+    "id": "yily/glm-base-nwfe-sft-70000",
+    "author": "yily",
+    "gated": false,
+    "lastModified": "2023-12-05T06:40:28.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "9031fb20b26acc7a1f999f9f519d6d8d5864e8ce",
+    "downloads": 0,
+    "tags": ["peft", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2023-12-05T06:39:16.000Z",
+    "modelId": "yily/glm-base-nwfe-sft-70000",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "optimizer.pt"
+      },
+      {
+        "rfilename": "rng_state.pth"
+      },
+      {
+        "rfilename": "scheduler.pt"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "6577256b17ee44ff54768e5a",
+    "id": "aaawsl/glm3-qlora",
+    "author": "aaawsl",
+    "gated": false,
+    "lastModified": "2023-12-11T15:11:29.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "b0f1fe3311b727cc1efa9c096b30e0c569d4441b",
+    "downloads": 1,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "chatglm",
+      "feature-extraction",
+      "custom_code",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2023-12-11T15:06:19.000Z",
+    "modelId": "aaawsl/glm3-qlora",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "generation_config.json"
+      },
+      {
+        "rfilename": "model-00001-of-00003.safetensors"
+      },
+      {
+        "rfilename": "model-00002-of-00003.safetensors"
+      },
+      {
+        "rfilename": "model-00003-of-00003.safetensors"
+      },
+      {
+        "rfilename": "model.safetensors.index.json"
+      }
+    ]
+  },
+  {
+    "_id": "6597c6ccb1a786726959d738",
+    "id": "zhr6212/GLM_sft_Lora",
+    "author": "zhr6212",
+    "gated": false,
+    "lastModified": "2024-01-05T09:10:08.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "a6ca1bf8839715697307c63ef7029d3c5273f5d5",
+    "downloads": 1,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "chatglm",
+      "feature-extraction",
+      "custom_code",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2024-01-05T09:07:24.000Z",
+    "modelId": "zhr6212/GLM_sft_Lora",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_chatglm.py"
+      },
+      {
+        "rfilename": "generation_config.json"
+      },
+      {
+        "rfilename": "model-00001-of-00005.safetensors"
+      },
+      {
+        "rfilename": "model-00002-of-00005.safetensors"
+      },
+      {
+        "rfilename": "model-00003-of-00005.safetensors"
+      },
+      {
+        "rfilename": "model-00004-of-00005.safetensors"
+      },
+      {
+        "rfilename": "model-00005-of-00005.safetensors"
+      },
+      {
+        "rfilename": "model.safetensors.index.json"
+      },
+      {
+        "rfilename": "modeling_chatglm.py"
+      },
+      {
+        "rfilename": "quantization.py"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  },
+  {
+    "_id": "65a78d7f12a69b973769f2c6",
+    "id": "Aut0matas/Waltz-GLM3",
+    "author": "Aut0matas",
+    "gated": false,
+    "lastModified": "2024-01-17T08:19:11.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "89a067d8c0f19f3fc8fe3dc8f91792eff23a3e9d",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2024-01-17T08:19:11.000Z",
+    "modelId": "Aut0matas/Waltz-GLM3",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "65b34bf88b7c508c8e84fe84",
+    "id": "gyr66/GLM3-6B-privacy-detection-position-ptuning",
+    "author": "gyr66",
+    "gated": false,
+    "lastModified": "2024-01-26T06:12:19.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "c4fdd18a0f8309a7a7e01007cf7d7bdc6474b5a2",
+    "downloads": 1,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "chatglm",
+      "feature-extraction",
+      "custom_code",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2024-01-26T06:06:48.000Z",
+    "modelId": "gyr66/GLM3-6B-privacy-detection-position-ptuning",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "generation_config.json"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      },
+      {
+        "rfilename": "train.log"
+      },
+      {
+        "rfilename": "trainer_state.json"
+      },
+      {
+        "rfilename": "training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "65d032d550818a335a5161fa",
+    "id": "silk-road/Haruhi-Zero-GLM3-6B-0_4",
+    "author": "silk-road",
+    "gated": false,
+    "lastModified": "2024-02-21T11:20:48.000Z",
+    "likes": 1,
+    "private": false,
+    "sha": "9b6ed5baf23e31756811b9b87bd41bba55e0f066",
+    "downloads": 68,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "chatglm",
+      "feature-extraction",
+      "custom_code",
+      "arxiv:1910.09700",
+      "has_space",
+      "region:us"
+    ],
+    "pipeline_tag": "feature-extraction",
+    "library_name": "transformers",
+    "createdAt": "2024-02-17T04:15:17.000Z",
+    "modelId": "silk-road/Haruhi-Zero-GLM3-6B-0_4",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "configuration_chatglm.py"
+      },
+      {
+        "rfilename": "generation_config.json"
+      },
+      {
+        "rfilename": "model-00001-of-00003.safetensors"
+      },
+      {
+        "rfilename": "model-00002-of-00003.safetensors"
+      },
+      {
+        "rfilename": "model-00003-of-00003.safetensors"
+      },
+      {
+        "rfilename": "model.safetensors.index.json"
+      },
+      {
+        "rfilename": "modeling_chatglm.py"
+      },
+      {
+        "rfilename": "quantization.py"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  },
+  {
+    "_id": "65d0b622f5a15aa4218c9b2c",
+    "id": "silk-road/Haruhi-Zero-GLM3-6B-Lora-0_4",
+    "author": "silk-road",
+    "gated": false,
+    "lastModified": "2024-02-20T03:44:46.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "288fa120bbc02acd11fbd5c18db1b52b850dff17",
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "arxiv:1910.09700",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "library_name": "transformers",
+    "createdAt": "2024-02-17T13:35:30.000Z",
+    "modelId": "silk-road/Haruhi-Zero-GLM3-6B-Lora-0_4",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.safetensors"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  },
+  {
+    "_id": "65dab6c78c1745678fbda334",
+    "id": "quanguan/lora_glm3_self_alpaca_zh",
+    "author": "quanguan",
+    "gated": false,
+    "lastModified": "2024-02-25T03:40:55.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "639672f03ebf52f5c427b6f4d494010bc3f01a22",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2024-02-25T03:40:55.000Z",
+    "modelId": "quanguan/lora_glm3_self_alpaca_zh",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "65e94cd2063e16f1c3f4ee8f",
+    "id": "svjack/genshin_impact_character_glm6b_base_lora",
+    "author": "svjack",
+    "gated": false,
+    "lastModified": "2024-03-07T05:15:48.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "8e248771dce7ccaee642a76a477aca096af5278e",
+    "downloads": 0,
+    "tags": ["safetensors", "region:us"],
+    "createdAt": "2024-03-07T05:12:50.000Z",
+    "modelId": "svjack/genshin_impact_character_glm6b_base_lora",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "checkpoint-1000/README.md"
+      },
+      {
+        "rfilename": "checkpoint-1000/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-1000/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-1000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-1000/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-1000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-1000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-1000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-1000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-1000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-1000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-1000/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-1500/README.md"
+      },
+      {
+        "rfilename": "checkpoint-1500/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-1500/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-1500/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-1500/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-1500/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-1500/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-1500/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-1500/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-1500/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-1500/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-1500/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-2000/README.md"
+      },
+      {
+        "rfilename": "checkpoint-2000/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-2000/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-2000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-2000/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-2000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-2000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-2000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-2000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-2000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-2000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-2000/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-2500/README.md"
+      },
+      {
+        "rfilename": "checkpoint-2500/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-2500/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-2500/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-2500/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-2500/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-2500/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-2500/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-2500/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-2500/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-2500/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-2500/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-3000/README.md"
+      },
+      {
+        "rfilename": "checkpoint-3000/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-3000/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-3000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-3000/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-3000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-3000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-3000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-3000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-3000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-3000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-3000/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-3500/README.md"
+      },
+      {
+        "rfilename": "checkpoint-3500/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-3500/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-3500/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-3500/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-3500/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-3500/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-3500/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-3500/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-3500/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-3500/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-3500/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-4000/README.md"
+      },
+      {
+        "rfilename": "checkpoint-4000/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-4000/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-4000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-4000/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-4000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-4000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-4000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-4000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-4000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-4000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-4000/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-4500/README.md"
+      },
+      {
+        "rfilename": "checkpoint-4500/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-4500/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-4500/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-4500/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-4500/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-4500/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-4500/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-4500/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-4500/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-4500/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-4500/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-500/README.md"
+      },
+      {
+        "rfilename": "checkpoint-500/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-500/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-500/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-500/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-500/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-500/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-500/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-500/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-500/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-500/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-500/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-5000/README.md"
+      },
+      {
+        "rfilename": "checkpoint-5000/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-5000/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-5000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-5000/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-5000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-5000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-5000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-5000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-5000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-5000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-5000/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-5500/README.md"
+      },
+      {
+        "rfilename": "checkpoint-5500/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-5500/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-5500/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-5500/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-5500/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-5500/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-5500/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-5500/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-5500/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-5500/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-5500/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-6000/README.md"
+      },
+      {
+        "rfilename": "checkpoint-6000/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-6000/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-6000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-6000/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-6000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-6000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-6000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-6000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-6000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-6000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-6000/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-6500/README.md"
+      },
+      {
+        "rfilename": "checkpoint-6500/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-6500/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-6500/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-6500/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-6500/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-6500/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-6500/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-6500/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-6500/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-6500/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-6500/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-7000/README.md"
+      },
+      {
+        "rfilename": "checkpoint-7000/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-7000/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-7000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-7000/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-7000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-7000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-7000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-7000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-7000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-7000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-7000/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-7500/README.md"
+      },
+      {
+        "rfilename": "checkpoint-7500/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-7500/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-7500/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-7500/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-7500/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-7500/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-7500/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-7500/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-7500/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-7500/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-7500/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-8000/README.md"
+      },
+      {
+        "rfilename": "checkpoint-8000/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-8000/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-8000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-8000/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-8000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-8000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-8000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-8000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-8000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-8000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-8000/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-8500/README.md"
+      },
+      {
+        "rfilename": "checkpoint-8500/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-8500/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-8500/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-8500/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-8500/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-8500/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-8500/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-8500/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-8500/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-8500/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-8500/training_args.bin"
+      },
+      {
+        "rfilename": "checkpoint-9000/README.md"
+      },
+      {
+        "rfilename": "checkpoint-9000/adapter_config.json"
+      },
+      {
+        "rfilename": "checkpoint-9000/adapter_model.safetensors"
+      },
+      {
+        "rfilename": "checkpoint-9000/optimizer.pt"
+      },
+      {
+        "rfilename": "checkpoint-9000/rng_state.pth"
+      },
+      {
+        "rfilename": "checkpoint-9000/scheduler.pt"
+      },
+      {
+        "rfilename": "checkpoint-9000/special_tokens_map.json"
+      },
+      {
+        "rfilename": "checkpoint-9000/tokenization_chatglm.py"
+      },
+      {
+        "rfilename": "checkpoint-9000/tokenizer.model"
+      },
+      {
+        "rfilename": "checkpoint-9000/tokenizer_config.json"
+      },
+      {
+        "rfilename": "checkpoint-9000/trainer_state.json"
+      },
+      {
+        "rfilename": "checkpoint-9000/training_args.bin"
+      }
+    ]
+  },
+  {
+    "_id": "65e964ffdde639352992929f",
+    "id": "svjack/genshin_impact_character_glm6b_base_ggml",
+    "author": "svjack",
+    "gated": false,
+    "lastModified": "2024-03-07T07:42:14.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "c6b8046d143608f9e9ff927cc4f3e68f19bc19df",
+    "downloads": 0,
+    "tags": ["has_space", "region:us"],
+    "createdAt": "2024-03-07T06:55:59.000Z",
+    "modelId": "svjack/genshin_impact_character_glm6b_base_ggml",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "chatglm3-base-inst-6500-sm-ggml.bin"
+      },
+      {
+        "rfilename": "chatglm3-base-inst-7500-sm-ggml.bin"
+      }
+    ]
+  },
+  {
+    "_id": "65ec36d36b0697f0871e1235",
+    "id": "Jerome2046/glm-emotion",
+    "author": "Jerome2046",
+    "gated": false,
+    "lastModified": "2024-04-05T06:00:40.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "690d7ef281ffd14e063c219d79537e1f56fa8545",
+    "downloads": 10,
+    "tags": [
+      "transformers",
+      "pytorch",
+      "chatglm",
+      "feature-extraction",
+      "text-classification",
+      "custom_code",
+      "zh",
+      "region:us"
+    ],
+    "pipeline_tag": "text-classification",
+    "library_name": "transformers",
+    "createdAt": "2024-03-09T10:15:47.000Z",
+    "modelId": "Jerome2046/glm-emotion",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "config.json"
+      },
+      {
+        "rfilename": "generation_config.json"
+      },
+      {
+        "rfilename": "pytorch_model(1).bin"
+      },
+      {
+        "rfilename": "pytorch_model(2).bin"
+      },
+      {
+        "rfilename": "pytorch_model.bin"
+      }
+    ]
+  },
+  {
+    "_id": "65eef907ca6ebc7a34c7c6b9",
+    "id": "huniu20/glm",
+    "author": "huniu20",
+    "gated": false,
+    "lastModified": "2024-03-11T12:28:55.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "81c2b19f187baebbdeaf8b5e264950cf0896e681",
+    "downloads": 0,
+    "tags": ["license:apache-2.0", "region:us"],
+    "createdAt": "2024-03-11T12:28:55.000Z",
+    "modelId": "huniu20/glm",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      }
+    ]
+  },
+  {
+    "_id": "6607c66e1af5e1591514a5a5",
+    "id": "klo1/glm3",
+    "author": "klo1",
+    "gated": false,
+    "lastModified": "2024-03-30T07:59:42.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "98636f217cb73b5233166fdd3215fca568d080fb",
+    "downloads": 0,
+    "tags": ["region:us"],
+    "createdAt": "2024-03-30T07:59:42.000Z",
+    "modelId": "klo1/glm3",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      }
+    ]
+  },
+  {
+    "_id": "660ce8e00b8c891e98f8e498",
+    "id": "XiaoFang1019/glmchat_models",
+    "author": "XiaoFang1019",
+    "gated": false,
+    "lastModified": "2024-04-03T05:35:01.000Z",
+    "likes": 0,
+    "private": false,
+    "sha": "c7ee99361d90195a3a0d76ae6e9c72a71b6b68ed",
+    "downloads": 0,
+    "tags": ["peft", "arxiv:1910.09700", "base_model:THUDM/chatglm2-6b", "region:us"],
+    "library_name": "peft",
+    "createdAt": "2024-04-03T05:28:00.000Z",
+    "modelId": "XiaoFang1019/glmchat_models",
+    "siblings": [
+      {
+        "rfilename": ".gitattributes"
+      },
+      {
+        "rfilename": "README.md"
+      },
+      {
+        "rfilename": "adapter_config.json"
+      },
+      {
+        "rfilename": "adapter_model.bin"
+      },
+      {
+        "rfilename": "special_tokens_map.json"
+      },
+      {
+        "rfilename": "tokenizer.model"
+      },
+      {
+        "rfilename": "tokenizer_config.json"
+      }
+    ]
+  }
+]
