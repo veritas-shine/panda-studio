@@ -1,7 +1,12 @@
-// search related type
-
+// tauri commands
 export const kCommand = {
   getSystemInfo: 'get_system_info'
+}
+
+// settings
+export type UserSettings = {
+  theme: string
+  language: string
 }
 
 export type SiblingInfo = {

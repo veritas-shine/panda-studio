@@ -2,30 +2,30 @@
 import { reactive, watch, ref, CSSProperties } from 'vue'
 import { theme, ConfigProvider } from 'ant-design-vue'
 import SideBar from './components/sidebar.vue'
-
-// const { token } = theme.useToken()
-const state = reactive({
-  collapsed: false,
-  selectedKeys: ['1'],
-  openKeys: ['sub1'],
-  preOpenKeys: ['sub1']
-})
-
-watch(
-  () => state.openKeys,
-  (_val, oldVal) => {
-    state.preOpenKeys = oldVal
-  }
-)
+import { IConfigService } from './interfaces'
 
 const style = ref<CSSProperties>({
   // backgroundColor: token.value.colorBgLayout,
   // color: token.value.colorText
 })
+const configService = IConfigService.resolve()
+
+const algorithm = ref(theme.darkAlgorithm)
+const themeInfo = ref({
+  algorithm: algorithm.value
+})
+watch(
+  () => configService.settings.theme,
+  (val) => {
+    algorithm.value = theme === 'dark' ? theme.darkAlgorithm : theme.defaultAlgorithm
+    themeInfo.value.algorithm = algorithm.value
+  },
+  { deep: true }
+)
 </script>
 
 <template>
-  <ConfigProvider :theme="{ algorithm: theme.darkAlgorithm }">
+  <ConfigProvider :theme="themeInfo">
     <div class="container" :style="style">
       <SideBar />
       <router-view></router-view>
