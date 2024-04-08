@@ -39,13 +39,32 @@
             </ListItemMeta>
           </Skeleton>
         </ListItem>
+        <ListItem>
+          <Skeleton :title="false" :loading="false" active>
+            <ListItemMeta>
+              <template #title>
+                <span @click="checkUpdates">Check Updates</span>
+              </template>
+              <template #avatar>
+                <CloudSyncOutlined />
+              </template>
+            </ListItemMeta>
+          </Skeleton>
+        </ListItem>
       </List>
     </Flex>
   </Flex>
 </template>
 <script setup lang="ts">
-import { QuestionCircleOutlined, HistoryOutlined, HeartOutlined } from '@ant-design/icons-vue'
-import { Flex, PageHeader, Card, List, ListItem, Skeleton, ListItemMeta } from 'ant-design-vue'
+import {
+  QuestionCircleOutlined,
+  HistoryOutlined,
+  HeartOutlined,
+  CloudSyncOutlined
+} from '@ant-design/icons-vue'
+import { Flex, PageHeader, List, ListItem, Skeleton, ListItemMeta } from 'ant-design-vue'
+
+const checkUpdates = () => {}
 </script>
 <style scoped lang="scss">
 .item-container {

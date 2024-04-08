@@ -3,9 +3,9 @@
     <Header />
     <Flex class="content-container">
       <Flex class="left" vertical>
-        <Filter :total="resultList.length || 0" />
+        <Filter :total="searchResult.length || 0" />
         <Flex class="result-list" vertical gap="small">
-          <SearchItem v-for="item in resultList" :key="item.id" :info="item" />
+          <SearchItem v-for="item in searchResult" :key="item.id" :info="item" />
         </Flex>
       </Flex>
       <Flex>
@@ -15,16 +15,25 @@
   </Flex>
 </template>
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
+import { ref, watch } from 'vue'
 import { Flex } from 'ant-design-vue'
-import { ISearchService, SearchItemInfo } from '../../interfaces'
+import { SearchItemInfo, ISearchService } from '../../interfaces'
 import resultList from './example.json'
 import SearchItem from './search-item.vue'
 import Filter from './filter.vue'
 import Content from './content.vue'
 import Header from './header.vue'
 
-const searchResult = ref<SearchItemInfo[]>(resultList)
+const searchService = ISearchService.resolve()
+const searchResult = ref<SearchItemInfo[]>(resultList as any[])
+
+watch(
+  () => searchService.searchResult,
+  (val) => {
+    searchResult.value = val
+  },
+  { deep: true }
+)
 </script>
 <style scoped lang="scss">
 .layout {

@@ -16,8 +16,8 @@ const themeInfo = ref({
 })
 watch(
   () => configService.settings.theme,
-  () => {
-    algorithm.value = theme === 'dark' ? theme.darkAlgorithm : theme.defaultAlgorithm
+  (val) => {
+    algorithm.value = val === 'dark' ? theme.darkAlgorithm : theme.defaultAlgorithm
     themeInfo.value.algorithm = algorithm.value
   },
   { deep: true }

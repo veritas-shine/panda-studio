@@ -10,13 +10,13 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
-import { Flex, Menu, MenuItemType, MenuItem, MenuItemGroup } from 'ant-design-vue'
+import { Flex, Menu, ItemType } from 'ant-design-vue'
 import UISetting from './ui.vue'
 import AboutSetting from './about.vue'
 import { SettingType } from './config'
 
 const selectedKeys = ref<string[]>([SettingType.UI])
-const items = ref<MenuItemType[]>([
+const items = ref<ItemType[]>([
   {
     type: 'group',
     label: 'Settings',
@@ -33,7 +33,7 @@ const items = ref<MenuItemType[]>([
   }
 ])
 
-const componentMap = {
+const componentMap: any = {
   [SettingType.UI]: UISetting,
   [SettingType.About]: AboutSetting
 }

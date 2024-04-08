@@ -8,14 +8,13 @@
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
-import { Flex, Tag, Space, Select, theme } from 'ant-design-vue'
+import { Flex, Tag, Space, Select } from 'ant-design-vue'
 
 type Props = {
   total: number
 }
 
-const props = defineProps<Props>()
-const { token } = theme.useToken()
+defineProps<Props>()
 
 const kSortOptions = [
   { label: 'Sort: Most Likes', value: 'ml' },

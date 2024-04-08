@@ -1,5 +1,5 @@
 <template>
-  <div class="search-item-container" @click="onClick">
+  <div class="search-item-container" @click="onClick" :style="containerStyle">
     <Flex vertical>
       <span class="title"><FolderOutlined :style="secondaryTextStyle" />{{ info.id }}</span>
       <span :style="secondaryTextStyle">{{ dayText(info.lastModified) }}</span>
@@ -11,22 +11,32 @@
   </div>
 </template>
 <script setup lang="ts">
-import { CSSProperties } from 'vue'
+import { CSSProperties, watch, ref } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { Flex, Tag, Space, theme } from 'ant-design-vue'
+import { Flex, Tag, theme } from 'ant-design-vue'
 import dayjs from 'dayjs'
-import { ISearchService } from '../../interfaces'
-import { SearchItemInfo } from '../../interfaces/type'
+import { SearchItemInfo, ISearchService } from '../../interfaces'
 import { FolderOutlined, HeartOutlined, DownloadOutlined } from '@ant-design/icons-vue'
 
 const props = defineProps<{ info: SearchItemInfo }>()
 const { token } = theme.useToken()
+const { t } = useI18n()
+const searchService = ISearchService.resolve()
 
 const secondaryTextStyle: CSSProperties = {
   color: token.value.colorTextSecondary
 }
 
-const { t } = useI18n()
+const containerStyle = ref<CSSProperties>({})
+
+watch(
+  () => searchService.selectedSearchItem?._id,
+  (id) => {
+    console.warn(8888888, id, props.info._id)
+    containerStyle.value.backgroundColor =
+      id === props.info._id ? token.value.colorPrimaryBg : undefined
+  }
+)
 
 const dayText = (dayString: string) => {
   const lastModified = dayjs(dayString)
@@ -45,7 +55,6 @@ const dayText = (dayString: string) => {
 }
 
 const onClick = () => {
-  const searchService = ISearchService.resolve()
   searchService.setCurrentModel(props.info)
 }
 </script>
@@ -77,4 +86,3 @@ const onClick = () => {
   }
 }
 </style>
-../../interfaces/type

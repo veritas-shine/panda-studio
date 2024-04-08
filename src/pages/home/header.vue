@@ -1,6 +1,7 @@
 <template>
   <div class="header">
-    <Button size="small" @click="checkForUpdates">Check for updates...</Button>
+    <div />
+    <div>Logo</div>
     <div>
       <Button class="link-button" size="small" type="link" href="https://pandacat.ai"
         >PandaCat AI</Button
@@ -19,7 +20,6 @@
 </template>
 <script setup type="ts">
 import { Button, Divider } from 'ant-design-vue'
-const checkForUpdates = () => {}
 </script>
 <style scoped lang="scss">
 .header {

@@ -28,7 +28,7 @@ const searchService = ISearchService.resolve()
 
 watch(
   () => configService.estimatedRAM,
-  (value) => {
+  () => {
     ram.value = t('search.header.estimated-ram', { n: configService.estimatedRAM })
   }
 )

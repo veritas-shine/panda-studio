@@ -7,10 +7,6 @@
 // import { ref } from 'vue'
 import { Flex, Space } from 'ant-design-vue'
 
-type Props = {}
-
-defineProps<Props>()
-
 // const sortOption = ref<string>('')
 
 // const provider = ref('')

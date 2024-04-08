@@ -28,3 +28,9 @@ export type SearchItemInfo = {
   modelId: string
   siblings: SiblingInfo[]
 }
+
+//
+export type SystemInfo = {
+  total_memory: number
+  cpu_count: number
+}

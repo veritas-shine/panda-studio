@@ -1,9 +1,8 @@
 <template>
   <Flex class="home">
-    <Header />
     <div class="content-container">
       <Flex class="search-container" :style="{ backgroundColor: token.colorBgElevated }">
-        <div>Logo</div>
+        <Header />
         <div class="search-input">
           <InputSearch
             placeholder="Search for models"
