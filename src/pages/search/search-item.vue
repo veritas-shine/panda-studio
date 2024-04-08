@@ -32,7 +32,6 @@ const dayText = (dayString: string) => {
   const lastModified = dayjs(dayString)
   const diff = dayjs().diff(lastModified, 'day')
   let suffix = ''
-  console.warn(diff)
 
   if (diff < 30 && diff > 0) {
     suffix = t('common.date.day-ago', { n: diff })

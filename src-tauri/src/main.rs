@@ -5,7 +5,7 @@ use sysinfo::{Components, Disks, Networks, System};
 
 // Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
 #[tauri::command]
-fn getSystemInfo() -> u64 {
+fn get_system_info() -> u64 {
     // format!("Hello, {}! You've been greeted from Rust!", name)
     let mut sys = System::new_all();
     sys.refresh_all();
@@ -14,7 +14,7 @@ fn getSystemInfo() -> u64 {
 
 fn main() {
     tauri::Builder::default()
-        .invoke_handler(tauri::generate_handler![getSystemInfo])
+        .invoke_handler(tauri::generate_handler![get_system_info])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }

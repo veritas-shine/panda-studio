@@ -1,7 +1,7 @@
 // search related type
 
 export const kCommand = {
-  getSystemInfo: 'getSystemInfo'
+  getSystemInfo: 'get_system_info'
 }
 
 export type SiblingInfo = {

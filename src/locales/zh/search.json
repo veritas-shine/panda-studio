@@ -1,1 +1,5 @@
-{}
+{
+  "header": {
+    "estimated-ram": "内存大小: {n}GB"
+  }
+}

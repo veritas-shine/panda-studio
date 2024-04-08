@@ -1,17 +1,13 @@
 <template>
   <Flex justify="space-between" class="filter-container">
-    <Space
-      >Found <Tag>{{ total }}</Tag> results on <span>{{ provider }}</span></Space
-    >
+    <Space> </Space>
   </Flex>
 </template>
 <script setup lang="ts">
 import { ref } from 'vue'
 import { Flex, Tag, Space, Select, theme } from 'ant-design-vue'
 
-type Props = {
-  total: number
-}
+type Props = {}
 
 const props = defineProps<Props>()
 const { token } = theme.useToken()

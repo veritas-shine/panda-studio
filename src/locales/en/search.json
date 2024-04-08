@@ -1,1 +1,5 @@
-{}
+{
+  "header": {
+    "estimated-ram": "Estimated total RAM: {n}GB"
+  }
+}
