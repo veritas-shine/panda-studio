@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { reactive, watch, ref, CSSProperties } from 'vue'
+import { watch, ref, CSSProperties } from 'vue'
 import { theme, ConfigProvider } from 'ant-design-vue'
 import SideBar from './components/sidebar.vue'
 import { IConfigService } from './interfaces'
@@ -16,7 +16,7 @@ const themeInfo = ref({
 })
 watch(
   () => configService.settings.theme,
-  (val) => {
+  () => {
     algorithm.value = theme === 'dark' ? theme.darkAlgorithm : theme.defaultAlgorithm
     themeInfo.value.algorithm = algorithm.value
   },

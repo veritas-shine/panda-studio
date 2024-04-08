@@ -1,5 +1,6 @@
 {
   "header": {
-    "estimated-ram": "内存大小: {n}GB"
+    "estimated-ram": "内存大小: {n}GB",
+    "placeholder": "搜索模型..."
   }
 }

@@ -4,17 +4,16 @@
   </Flex>
 </template>
 <script setup lang="ts">
-import { ref } from 'vue'
-import { Flex, Tag, Space, Select, theme } from 'ant-design-vue'
+// import { ref } from 'vue'
+import { Flex, Space } from 'ant-design-vue'
 
 type Props = {}
 
-const props = defineProps<Props>()
-const { token } = theme.useToken()
+defineProps<Props>()
 
-const sortOption = ref<string>('')
+// const sortOption = ref<string>('')
 
-const provider = ref('')
+// const provider = ref('')
 </script>
 <style scoped lang="scss">
 .filter-container {

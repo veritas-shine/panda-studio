@@ -4,12 +4,12 @@ import { SearchItemInfo } from '../interfaces/type'
 @ISearchService.bind
 export default class SearchService implements ISearchService {
   private _configService: IConfigService
-  private _modelInfo: SearchItemInfo
+  private _modelInfo?: SearchItemInfo
 
   constructor(@IConfigService configService: IConfigService) {
     this._configService = configService
   }
-  async searchModel(keyword: string, tag: string) {
+  async searchModel(keyword: string, tag?: string) {
     const url = `${this._configService.searchHost}/api/models?search=${encodeURIComponent(keyword)}&full=true&library=gguf&${encodeURIComponent(tag ?? '')}`
     const response = await fetch(url)
     const result = await response.json()
@@ -18,7 +18,7 @@ export default class SearchService implements ISearchService {
   }
   setCurrentModel(info: SearchItemInfo) {
     this._modelInfo = info
-    this.getModelInfo(info.id)
+    this.getModelInfo(this._modelInfo!.id)
   }
   async getModelInfo(id: string) {
     const url = `${this._configService.searchHost}/api/models/${id}`

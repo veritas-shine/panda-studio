@@ -1,15 +1,22 @@
 // Prevents additional console window on Windows in release, DO NOT REMOVE!!
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
-use sysinfo::{Components, Disks, Networks, System};
+use sysinfo::System;
 
-// Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
+#[derive(serde::Serialize)]
+struct SystemInfo {
+    total_memory: u64,
+    cpu_count: usize,
+}
+
 #[tauri::command]
-fn get_system_info() -> u64 {
-    // format!("Hello, {}! You've been greeted from Rust!", name)
+fn get_system_info() -> SystemInfo {
     let mut sys = System::new_all();
     sys.refresh_all();
-    return sys.total_memory();
+    return SystemInfo {
+        total_memory: sys.total_memory(),
+        cpu_count: sys.cpus().len(),
+    };
 }
 
 fn main() {

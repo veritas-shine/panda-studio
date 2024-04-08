@@ -15,19 +15,16 @@
   </Flex>
 </template>
 <script setup lang="ts">
-import { onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
 import { Flex } from 'ant-design-vue'
-import { ISearchService } from '../../interfaces'
+import { ISearchService, SearchItemInfo } from '../../interfaces'
 import resultList from './example.json'
 import SearchItem from './search-item.vue'
 import Filter from './filter.vue'
 import Content from './content.vue'
 import Header from './header.vue'
 
-onMounted(async () => {
-  // const searchService = ISearchService.resolve()
-  // await searchService.searchModel('GLM', '')
-})
+const searchResult = ref<SearchItemInfo[]>(resultList)
 </script>
 <style scoped lang="scss">
 .layout {

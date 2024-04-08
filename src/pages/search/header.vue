@@ -2,7 +2,12 @@
   <Flex justify="space-between" class="header-container">
     <Flex>Logo</Flex>
     <Flex>
-      <InputSearch class="search-input" allow-clear />
+      <InputSearch
+        class="search-input"
+        allow-clear
+        @search="onSearch"
+        :placeholder="t('search.header.placeholder')"
+      />
     </Flex>
     <Flex>
       <Tag>{{ ram }}</Tag>
@@ -10,15 +15,16 @@
   </Flex>
 </template>
 <script setup lang="ts">
-import { ref, watch, onMounted } from 'vue'
+import { ref, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { Flex, InputSearch, Tag } from 'ant-design-vue'
-import { IConfigService } from '../../interfaces'
+import { IConfigService, ISearchService } from '../../interfaces'
 
 const { t } = useI18n()
 
 const ram = ref('')
 const configService = IConfigService.resolve()
+const searchService = ISearchService.resolve()
 
 watch(
   () => configService.estimatedRAM,
@@ -27,9 +33,9 @@ watch(
   }
 )
 
-onMounted(() => {
-  console.warn(999999, configService.estimatedRAM)
-})
+const onSearch = async (keyword: string) => {
+  await searchService.searchModel(keyword)
+}
 </script>
 <style scoped lang="scss">
 .header-container {

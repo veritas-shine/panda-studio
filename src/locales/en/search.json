@@ -1,5 +1,6 @@
 {
   "header": {
-    "estimated-ram": "Estimated total RAM: {n}GB"
+    "estimated-ram": "Estimated total RAM: {n}GB",
+    "placeholder": "Search models by keywords..."
   }
 }
