@@ -44,7 +44,7 @@ const componentMap = {
   flex-direction: row;
   flex: 1;
   .menu-container {
-    width: 160px;
+    width: 200px;
   }
 }
 </style>

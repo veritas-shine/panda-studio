@@ -2,7 +2,7 @@
 import { Flex, Space, theme } from 'ant-design-vue'
 import { useRouter } from 'vue-router'
 import {
-  HomeOutlined,
+  DashboardOutlined,
   SearchOutlined,
   MessageOutlined,
   SettingOutlined
@@ -15,7 +15,7 @@ const { token } = theme.useToken()
 const items = [
   {
     key: '1',
-    icon: HomeOutlined,
+    icon: DashboardOutlined,
     label: 'Home',
     url: '/'
   },
