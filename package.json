@@ -13,24 +13,25 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "^7.0.1",
-    "@tauri-apps/api": "^1",
+    "@tauri-apps/api": "^1.6.0",
     "ant-design-vue": "4.x",
-    "dayjs": "^1.11.10",
-    "inversify": "^6.0.2",
+    "dayjs": "^1.11.13",
+    "inversify": "^6.2.1",
     "reflect-metadata": "^0.2.2",
-    "vue": "^3.3.4",
-    "vue-i18n": "^9.11.0",
+    "vue": "^3.5.13",
+    "vue-i18n": "^9.14.2",
     "vue-router": "4"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^1",
-    "@vitejs/plugin-vue": "^5.0.4",
-    "prettier": "^3.2.5",
+    "@tauri-apps/cli": "^1.6.3",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "prettier": "^3.4.2",
     "pretty-quick": "^4.0.0",
-    "sass": "^1.72.0",
-    "typescript": "^5.0.2",
-    "vite": "^5.2.7",
+    "sass": "^1.83.4",
+    "typescript": "^5.7.3",
+    "vite": "^5.4.14",
     "vite-svg-loader": "^5.1.0",
-    "vue-tsc": "^2.0.7"
-  }
+    "vue-tsc": "^2.2.0"
+  },
+  "packageManager": "bun@1.1.20"
 }
