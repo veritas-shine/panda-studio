@@ -3,6 +3,7 @@
     <div class="content-container">
       <Flex class="search-container" :style="{ backgroundColor: token.colorBgElevated }">
         <Header />
+        <div :style="{ width: '32px', paddingTop: '16px' }"><Logo /></div>
         <div class="search-input">
           <InputSearch
             placeholder="Search for models"
@@ -36,6 +37,7 @@ import WelcomeCard from './welcome.vue'
 import Card from './card.vue'
 import { kRecommendationList } from './config'
 import { useRouter } from 'vue-router'
+import Logo from '../../assets/logo.svg?component'
 
 const modelList = ref(kRecommendationList)
 const { token } = theme.useToken()

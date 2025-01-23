@@ -8,9 +8,7 @@
           <SearchItem v-for="item in searchResult" :key="item.id" :info="item" />
         </Flex>
       </Flex>
-      <Flex>
-        <Content />
-      </Flex>
+      <Content />
     </Flex>
   </Flex>
 </template>

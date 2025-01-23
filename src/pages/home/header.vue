@@ -1,17 +1,16 @@
 <template>
   <div class="header">
     <div />
-    <div>Logo</div>
     <div>
-      <Button class="link-button" size="small" type="link" href="https://pandacat.ai"
+      <Button class="link-button" size="small" type="text" href="https://pandacat.ai"
         >PandaCat AI</Button
       >
       <Divider type="vertical" />
-      <Button class="link-button" size="small" type="link" href="https://pandacat.ai"
+      <Button class="link-button" size="small" type="text" href="https://pandacat.ai"
         >GitHub</Button
       >
       <Divider type="vertical" />
-      <Button class="link-button" size="small" type="link" href="https://pandacat.ai"
+      <Button class="link-button" size="small" type="text" href="https://pandacat.ai"
         >Terms of use</Button
       >
     </div>
